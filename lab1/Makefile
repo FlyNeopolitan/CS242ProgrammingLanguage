@@ -1,4 +1,5 @@
 all: exercise1.native exercise2.native exercise3.native
+exercise3: exercise3.native
 
 BUILD = corebuild
 FLAGS = -use-ocamlfind
