@@ -18,9 +18,24 @@ let rec typecheck_term (env : Type.t String.Map.t) (e : Expr.t) : (Type.t, strin
     (match (tau1, tau2) with
      | (Type.Int, Type.Int) -> Ok Type.Int
      | _ -> Error ("One of the binop operands is not an int"))
-  | Expr.Var x -> raise Unimplemented
-  | Expr.Lam(x, arg_tau, e') -> raise Unimplemented
-  | Expr.App (fn, arg) -> raise Unimplemented
+  | Expr.Var x -> 
+    (match String.Map.find env x with 
+     | Some tau -> Ok tau 
+     | None -> Error ("variable x doesn't have a type "))
+  | Expr.Lam(x, arg_tau, e') -> 
+    let nenv = String.Map.set ~key: x ~data: arg_tau env in
+    typecheck_term nenv e'
+    >>= fun tau ->
+    Ok(Type.Fn(arg_tau, tau))
+  | Expr.App (fn, arg) -> 
+    typecheck_term env fn
+    >>= fun tau1 ->
+    typecheck_term env arg
+    >>= fun tau2 ->
+    (match (tau1, tau2) with 
+     | (Type.Fn(t1, t2), t3) when t3 = t1 -> Ok t2
+     | _ -> Error ("The argument for function has wrong type"))
+
   | Expr.Pair (e1, e2) -> raise Unimplemented
   | Expr.Project (e, d) -> raise Unimplemented
   | Expr.Inject (e, d, tau) -> raise Unimplemented
@@ -45,4 +60,4 @@ let inline_tests () =
   assert (Result.is_error (typecheck t5))
 
 (* Uncomment the line below when you want to run the inline tests. *)
-(* let () = inline_tests () *)
+let () = inline_tests () 

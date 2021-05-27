@@ -15,8 +15,23 @@ let rec trystep e =
   match e with
   | Expr.Var _ -> raise (RuntimeError "Unreachable")
   | (Expr.Lam _ | Expr.Int _) -> Val
-  | Expr.App (fn, arg) -> raise Unimplemented
-  | Expr.Binop (binop, left, right) -> raise Unimplemented
+  | Expr.App (fn, arg) -> 
+    (match trystep fn with
+    | Step gn -> Step (Expr.App(gn, arg))
+    | Val -> (match fn with 
+             | Expr.Lam(x, tau, body) -> Step(Expr.substitute x arg body)
+             | _ -> raise (RuntimeError "not a function")))
+  | Expr.Binop (binop, left, right) -> 
+    (match trystep left with
+    | Step newL -> Step (Expr.Binop(binop, newL, right))
+    | Val -> (match trystep right with
+             | Step newR -> Step (Expr.Binop(binop, left, newR))
+             | Val -> let (Expr.Int n1, Expr.Int n2) = (left, right) in 
+                      (match binop with 
+                      | Expr.Add -> Step(Expr.Int(n1 + n2))
+                      | Expr.Sub -> Step(Expr.Int(n1 - n2))
+                      | Expr.Mul -> Step(Expr.Int(n1 * n2))
+                      | Expr.Div -> Step(Expr.Int(if n2 = 0 then 0 else n1 / n2)))))
   | Expr.Pair (e1, e2) -> raise Unimplemented
   | Expr.Project (e, dir) -> raise Unimplemented
   | Expr.Inject (e, dir, tau) -> raise Unimplemented
@@ -35,4 +50,4 @@ let inline_tests () =
   assert (trystep e2 = Step(Expr.Int 3))
 
 (* Uncomment the line below when you want to run the inline tests. *)
-(* let () = inline_tests () *)
+ let () = inline_tests ()
