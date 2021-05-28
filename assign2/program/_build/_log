@@ -42,9 +42,7 @@ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bi
 # Target: src/lexer.cmx, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/lexer.cmx, file:src/lexer.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
 ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/lexer.cmx src/lexer.ml # cached
 # Target: src/typecheck.ml.depends, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, debug, extension:ml, file:src/typecheck.ml, ocaml, ocamldep, quiet, short_paths, thread, traverse }
-ocamlfind ocamldep -package core -ppx 'ppx-jane -as-ppx' -modules src/typecheck.ml > src/typecheck.ml.depends # cached
-# Target: src/typecheck.cmx, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/typecheck.cmx, file:src/typecheck.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
-ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/typecheck.cmx src/typecheck.ml # cached
+ocamlfind ocamldep -package core -ppx 'ppx-jane -as-ppx' -modules src/typecheck.ml > src/typecheck.ml.depends
 # Target: src/interpreter.cmx, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/interpreter.cmx, file:src/interpreter.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
 ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/interpreter.cmx src/interpreter.ml
 + ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/interpreter.cmx src/interpreter.ml
@@ -57,34 +55,25 @@ Here is an example of a case that is not matched:
 ((Var _|Binop (_, _, _)|Lam (_, _, _)|App (_, _)|Pair (_, _)|Project (_, _)|
  Inject (_, _, _)),
 _))
-File "src/interpreter.ml", line 35, characters 15-17:
-Warning 27: unused variable e1.
-File "src/interpreter.ml", line 35, characters 19-21:
-Warning 27: unused variable e2.
-File "src/interpreter.ml", line 36, characters 18-19:
-Warning 27: unused variable e.
-File "src/interpreter.ml", line 36, characters 21-24:
-Warning 27: unused variable dir.
-File "src/interpreter.ml", line 37, characters 17-18:
-Warning 27: unused variable e.
-File "src/interpreter.ml", line 37, characters 20-23:
-Warning 27: unused variable dir.
-File "src/interpreter.ml", line 37, characters 25-28:
-Warning 27: unused variable tau.
-File "src/interpreter.ml", line 38, characters 15-16:
-Warning 27: unused variable e.
-File "src/interpreter.ml", line 38, characters 19-21:
-Warning 27: unused variable x1.
-File "src/interpreter.ml", line 38, characters 23-25:
-Warning 27: unused variable e1.
-File "src/interpreter.ml", line 38, characters 29-31:
-Warning 27: unused variable x2.
-File "src/interpreter.ml", line 38, characters 33-35:
-Warning 27: unused variable e2.
-File "src/interpreter.ml", line 22, characters 27-30:
-Warning 27: unused variable tau.
+File "src/interpreter.ml", line 44, characters 17-34:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a case that is not matched:
+(Var _|Int _|Binop (_, _, _)|Lam (_, _, _)|App (_, _)|Project (_, _)|
+Inject (_, _, _))
+File "src/interpreter.ml", line 55, characters 19-42:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a case that is not matched:
+(Var _|Int _|Binop (_, _, _)|Lam (_, _, _)|App (_, _)|Pair (_, _)|
+Project (_, _))
+File "src/interpreter.ml", line 9, characters 0-23:
+Warning 38: unused exception Unimplemented
+# Target: src/typecheck.cmx, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/typecheck.cmx, file:src/typecheck.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/typecheck.cmx src/typecheck.ml
++ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/typecheck.cmx src/typecheck.ml
+File "src/typecheck.ml", line 5, characters 0-23:
+Warning 38: unused exception Unimplemented
 # Target: src/main.cmx, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/main.cmx, file:src/main.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
-ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/main.cmx src/main.ml # cached
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/main.cmx src/main.ml
 # Target: src/main.native, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, debug, dont_link_with, extension:native, file:src/main.native, link, native, ocaml, program, quiet, short_paths, thread, traverse }
 ocamlfind ocamlopt -linkpkg -g -thread -package core -I src src/ast.cmx src/interpreter.cmx src/parser.cmx src/lexer.cmx src/typecheck.cmx src/main.cmx -o src/main.native
 # Compilation successful.

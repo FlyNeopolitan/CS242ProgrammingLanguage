@@ -19,7 +19,7 @@ let rec trystep e =
     (match trystep fn with
     | Step gn -> Step (Expr.App(gn, arg))
     | Val -> (match fn with 
-             | Expr.Lam(x, tau, body) -> Step(Expr.substitute x arg body)
+             | Expr.Lam(x, _, body) -> Step(Expr.substitute x arg body)
              | _ -> raise (RuntimeError "not a function")))
   | Expr.Binop (binop, left, right) -> 
     (match trystep left with
@@ -32,10 +32,30 @@ let rec trystep e =
                       | Expr.Sub -> Step(Expr.Int(n1 - n2))
                       | Expr.Mul -> Step(Expr.Int(n1 * n2))
                       | Expr.Div -> Step(Expr.Int(if n2 = 0 then 0 else n1 / n2)))))
-  | Expr.Pair (e1, e2) -> raise Unimplemented
-  | Expr.Project (e, dir) -> raise Unimplemented
-  | Expr.Inject (e, dir, tau) -> raise Unimplemented
-  | Expr.Case (e, (x1, e1), (x2, e2)) -> raise Unimplemented
+  | Expr.Pair (e1, e2) -> 
+    (match trystep e1 with 
+    | Step e1' -> Step(Expr.Pair(e1', e2))
+    | Val -> (match trystep e2 with
+              | Step e2' -> Step(Expr.Pair(e1, e2'))
+              | Val -> Val))
+  | Expr.Project (e, dir) -> 
+    (match trystep e with 
+    | Step e' -> Step(Expr.Project(e', dir))
+    | Val -> let Expr.Pair(e1, e2) = e 
+             in (match dir with 
+                 | Expr.Left -> Step(e1) 
+                 | Expr.Right -> Step(e2)))
+  | Expr.Inject (e, dir, tau) -> 
+     (match trystep e with 
+      | Step e' -> Step(Expr.Inject(e', dir, tau))
+      | Val -> Val)
+  | Expr.Case (e, (x1, e1), (x2, e2)) -> 
+      (match trystep e with 
+      | Step e' -> Step(Expr.Case(e', (x1, e1), (x2, e2)))
+      | Val -> let Expr.Inject(e', dir, _) = e 
+               in (match dir with 
+                  | Expr.Left -> Step(Expr.substitute x1 e' e1)
+                  | Expr.Right -> Step(Expr.substitute x2 e' e2)))
 
 let rec eval e =
   match trystep e with
