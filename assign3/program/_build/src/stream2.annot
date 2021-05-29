@@ -1,0 +1,3333 @@
+"src/stream2.ml" 19 504 510 "src/stream2.ml" 19 504 514
+type(
+  'a stream -> 'a
+)
+ident(
+  def head "src/stream2.ml" 23 560 562 "src/stream2.ml" 56 1249 1252
+)
+"src/stream2.ml" 19 504 523 "src/stream2.ml" 19 504 524
+type(
+  unit -> 'a * 'a stream
+)
+ident(
+  def f "src/stream2.ml" 20 528 532 "src/stream2.ml" 21 550 558
+)
+"src/stream2.ml" 19 504 515 "src/stream2.ml" 19 504 525
+type(
+  'a stream
+)
+"src/stream2.ml" 20 528 537 "src/stream2.ml" 20 528 538
+type(
+  'a
+)
+ident(
+  def a "src/stream2.ml" 21 550 557 "src/stream2.ml" 21 550 558
+)
+"src/stream2.ml" 20 528 540 "src/stream2.ml" 20 528 541
+type(
+  'a stream
+)
+ident(
+  def b "src/stream2.ml" 21 550 557 "src/stream2.ml" 21 550 558
+)
+"src/stream2.ml" 20 528 536 "src/stream2.ml" 20 528 542
+type(
+  'a * 'a stream
+)
+"src/stream2.ml" 20 528 545 "src/stream2.ml" 20 528 546
+type(
+  unit -> 'a * 'a stream
+)
+ident(
+  int_ref f "src/stream2.ml" 19 504 523 "src/stream2.ml" 19 504 524
+)
+"src/stream2.ml" 20 528 547 "src/stream2.ml" 20 528 549
+type(
+  unit
+)
+"src/stream2.ml" 20 528 545 "src/stream2.ml" 20 528 549
+call(
+  stack
+)
+type(
+  'a * 'a stream
+)
+"src/stream2.ml" 21 550 557 "src/stream2.ml" 21 550 558
+type(
+  'a
+)
+ident(
+  int_ref a "src/stream2.ml" 20 528 537 "src/stream2.ml" 20 528 538
+)
+"src/stream2.ml" 20 528 532 "src/stream2.ml" 21 550 558
+type(
+  'a
+)
+"src/stream2.ml" 23 560 566 "src/stream2.ml" 23 560 570
+type(
+  'b stream -> 'b stream
+)
+ident(
+  def tail "src/stream2.ml" 27 616 618 "src/stream2.ml" 56 1249 1252
+)
+"src/stream2.ml" 23 560 579 "src/stream2.ml" 23 560 580
+type(
+  unit -> 'b * 'b stream
+)
+ident(
+  def f "src/stream2.ml" 24 584 588 "src/stream2.ml" 25 606 614
+)
+"src/stream2.ml" 23 560 571 "src/stream2.ml" 23 560 581
+type(
+  'b stream
+)
+"src/stream2.ml" 24 584 593 "src/stream2.ml" 24 584 594
+type(
+  'b
+)
+ident(
+  def a "src/stream2.ml" 25 606 613 "src/stream2.ml" 25 606 614
+)
+"src/stream2.ml" 24 584 596 "src/stream2.ml" 24 584 597
+type(
+  'b stream
+)
+ident(
+  def b "src/stream2.ml" 25 606 613 "src/stream2.ml" 25 606 614
+)
+"src/stream2.ml" 24 584 592 "src/stream2.ml" 24 584 598
+type(
+  'b * 'b stream
+)
+"src/stream2.ml" 24 584 601 "src/stream2.ml" 24 584 602
+type(
+  unit -> 'b * 'b stream
+)
+ident(
+  int_ref f "src/stream2.ml" 23 560 579 "src/stream2.ml" 23 560 580
+)
+"src/stream2.ml" 24 584 603 "src/stream2.ml" 24 584 605
+type(
+  unit
+)
+"src/stream2.ml" 24 584 601 "src/stream2.ml" 24 584 605
+call(
+  stack
+)
+type(
+  'b * 'b stream
+)
+"src/stream2.ml" 25 606 613 "src/stream2.ml" 25 606 614
+type(
+  'b stream
+)
+ident(
+  int_ref b "src/stream2.ml" 24 584 596 "src/stream2.ml" 24 584 597
+)
+"src/stream2.ml" 24 584 588 "src/stream2.ml" 25 606 614
+type(
+  'b stream
+)
+"src/stream2.ml" 27 616 626 "src/stream2.ml" 27 616 630
+type(
+  'c stream -> int -> 'c List2.MyList.list * 'c stream
+)
+ident(
+  def take "src/stream2.ml" 27 616 618 "src/stream2.ml" 56 1249 1252
+)
+"src/stream2.ml" 27 616 631 "src/stream2.ml" 27 616 632
+type(
+  'c stream
+)
+ident(
+  def s "src/stream2.ml" 27 616 633 "src/stream2.ml" 32 760 788
+)
+"src/stream2.ml" 27 616 633 "src/stream2.ml" 27 616 634
+type(
+  int
+)
+ident(
+  def n "src/stream2.ml" 28 638 642 "src/stream2.ml" 32 760 788
+)
+"src/stream2.ml" 28 638 653 "src/stream2.ml" 28 638 654
+ident(
+  def f "src/stream2.ml" 29 664 668 "src/stream2.ml" 32 760 788
+)
+"src/stream2.ml" 28 638 652 "src/stream2.ml" 28 638 655
+type(
+  unit -> 'c * 'c stream
+)
+"src/stream2.ml" 28 638 646 "src/stream2.ml" 28 638 655
+type(
+  'c stream
+)
+"src/stream2.ml" 28 638 658 "src/stream2.ml" 28 638 659
+type(
+  'c stream
+)
+ident(
+  int_ref s "src/stream2.ml" 27 616 631 "src/stream2.ml" 27 616 632
+)
+"src/stream2.ml" 29 664 671 "src/stream2.ml" 29 664 672
+type(
+  int
+)
+ident(
+  int_ref n "src/stream2.ml" 27 616 633 "src/stream2.ml" 27 616 634
+)
+"src/stream2.ml" 29 664 673 "src/stream2.ml" 29 664 674
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 29 664 675 "src/stream2.ml" 29 664 676
+type(
+  int
+)
+"src/stream2.ml" 29 664 671 "src/stream2.ml" 29 664 676
+type(
+  bool
+)
+"src/stream2.ml" 29 664 683 "src/stream2.ml" 29 664 686
+type(
+  'c List2.MyList.list
+)
+"src/stream2.ml" 29 664 688 "src/stream2.ml" 29 664 689
+type(
+  'c stream
+)
+ident(
+  int_ref s "src/stream2.ml" 27 616 631 "src/stream2.ml" 27 616 632
+)
+"src/stream2.ml" 29 664 682 "src/stream2.ml" 29 664 690
+type(
+  'c List2.MyList.list * 'c stream
+)
+"src/stream2.ml" 30 691 705 "src/stream2.ml" 30 691 706
+type(
+  'c
+)
+ident(
+  def a "src/stream2.ml" 31 719 731 "src/stream2.ml" 32 760 788
+)
+"src/stream2.ml" 30 691 708 "src/stream2.ml" 30 691 709
+type(
+  'c stream
+)
+ident(
+  def b "src/stream2.ml" 31 719 731 "src/stream2.ml" 32 760 788
+)
+"src/stream2.ml" 30 691 704 "src/stream2.ml" 30 691 710
+type(
+  'c * 'c stream
+)
+"src/stream2.ml" 30 691 714 "src/stream2.ml" 30 691 715
+type(
+  unit -> 'c * 'c stream
+)
+ident(
+  int_ref f "src/stream2.ml" 28 638 652 "src/stream2.ml" 28 638 655
+)
+"src/stream2.ml" 30 691 716 "src/stream2.ml" 30 691 718
+type(
+  unit
+)
+"src/stream2.ml" 30 691 714 "src/stream2.ml" 30 691 718
+call(
+  stack
+)
+type(
+  'c * 'c stream
+)
+"src/stream2.ml" 31 719 736 "src/stream2.ml" 31 719 737
+type(
+  'c List2.MyList.list
+)
+ident(
+  def l "src/stream2.ml" 32 760 772 "src/stream2.ml" 32 760 788
+)
+"src/stream2.ml" 31 719 739 "src/stream2.ml" 31 719 741
+type(
+  'c stream
+)
+ident(
+  def rm "src/stream2.ml" 32 760 772 "src/stream2.ml" 32 760 788
+)
+"src/stream2.ml" 31 719 735 "src/stream2.ml" 31 719 742
+type(
+  'c List2.MyList.list * 'c stream
+)
+"src/stream2.ml" 31 719 745 "src/stream2.ml" 31 719 749
+type(
+  'c stream -> int -> 'c List2.MyList.list * 'c stream
+)
+ident(
+  int_ref take "src/stream2.ml" 27 616 626 "src/stream2.ml" 27 616 630
+)
+"src/stream2.ml" 31 719 750 "src/stream2.ml" 31 719 751
+type(
+  'c stream
+)
+ident(
+  int_ref b "src/stream2.ml" 30 691 708 "src/stream2.ml" 30 691 709
+)
+"src/stream2.ml" 31 719 753 "src/stream2.ml" 31 719 754
+type(
+  int
+)
+ident(
+  int_ref n "src/stream2.ml" 27 616 633 "src/stream2.ml" 27 616 634
+)
+"src/stream2.ml" 31 719 755 "src/stream2.ml" 31 719 756
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Core.( - ) "src/core_pervasives.mli" 215 8438 8438 "src/core_pervasives.mli" 215 8438 8484
+)
+"src/stream2.ml" 31 719 757 "src/stream2.ml" 31 719 758
+type(
+  int
+)
+"src/stream2.ml" 31 719 752 "src/stream2.ml" 31 719 759
+type(
+  int
+)
+"src/stream2.ml" 31 719 745 "src/stream2.ml" 31 719 759
+call(
+  stack
+)
+type(
+  'c List2.MyList.list * 'c stream
+)
+"src/stream2.ml" 32 760 778 "src/stream2.ml" 32 760 779
+type(
+  'c
+)
+ident(
+  int_ref a "src/stream2.ml" 30 691 705 "src/stream2.ml" 30 691 706
+)
+"src/stream2.ml" 32 760 781 "src/stream2.ml" 32 760 782
+type(
+  'c List2.MyList.list
+)
+ident(
+  int_ref l "src/stream2.ml" 31 719 736 "src/stream2.ml" 31 719 737
+)
+"src/stream2.ml" 32 760 773 "src/stream2.ml" 32 760 783
+type(
+  'c List2.MyList.list
+)
+"src/stream2.ml" 32 760 785 "src/stream2.ml" 32 760 787
+type(
+  'c stream
+)
+ident(
+  int_ref rm "src/stream2.ml" 31 719 739 "src/stream2.ml" 31 719 741
+)
+"src/stream2.ml" 32 760 772 "src/stream2.ml" 32 760 788
+type(
+  'c List2.MyList.list * 'c stream
+)
+"src/stream2.ml" 31 719 731 "src/stream2.ml" 32 760 788
+type(
+  'c List2.MyList.list * 'c stream
+)
+"src/stream2.ml" 30 691 700 "src/stream2.ml" 32 760 788
+type(
+  'c List2.MyList.list * 'c stream
+)
+"src/stream2.ml" 29 664 668 "src/stream2.ml" 32 760 788
+type(
+  'c List2.MyList.list * 'c stream
+)
+"src/stream2.ml" 28 638 642 "src/stream2.ml" 32 760 788
+type(
+  'c List2.MyList.list * 'c stream
+)
+"src/stream2.ml" 35 795 805 "src/stream2.ml" 35 795 808
+type(
+  'd stream -> 'e stream -> ('d * 'e) stream
+)
+ident(
+  def zip "src/stream2.ml" 35 795 797 "src/stream2.ml" 56 1249 1252
+)
+"src/stream2.ml" 35 795 817 "src/stream2.ml" 35 795 818
+type(
+  unit -> 'd * 'd stream
+)
+ident(
+  def a "src/stream2.ml" 35 795 820 "src/stream2.ml" 38 884 930
+)
+"src/stream2.ml" 35 795 809 "src/stream2.ml" 35 795 819
+type(
+  'd stream
+)
+"src/stream2.ml" 35 795 828 "src/stream2.ml" 35 795 829
+type(
+  unit -> 'e * 'e stream
+)
+ident(
+  def b "src/stream2.ml" 36 833 837 "src/stream2.ml" 38 884 930
+)
+"src/stream2.ml" 35 795 820 "src/stream2.ml" 35 795 830
+type(
+  'e stream
+)
+"src/stream2.ml" 36 833 842 "src/stream2.ml" 36 833 844
+type(
+  'd
+)
+ident(
+  def a1 "src/stream2.ml" 37 857 864 "src/stream2.ml" 38 884 930
+)
+"src/stream2.ml" 36 833 846 "src/stream2.ml" 36 833 848
+type(
+  'd stream
+)
+ident(
+  def s1 "src/stream2.ml" 37 857 864 "src/stream2.ml" 38 884 930
+)
+"src/stream2.ml" 36 833 841 "src/stream2.ml" 36 833 849
+type(
+  'd * 'd stream
+)
+"src/stream2.ml" 36 833 852 "src/stream2.ml" 36 833 853
+type(
+  unit -> 'd * 'd stream
+)
+ident(
+  int_ref a "src/stream2.ml" 35 795 817 "src/stream2.ml" 35 795 818
+)
+"src/stream2.ml" 36 833 854 "src/stream2.ml" 36 833 856
+type(
+  unit
+)
+"src/stream2.ml" 36 833 852 "src/stream2.ml" 36 833 856
+call(
+  stack
+)
+type(
+  'd * 'd stream
+)
+"src/stream2.ml" 37 857 869 "src/stream2.ml" 37 857 871
+type(
+  'e
+)
+ident(
+  def a2 "src/stream2.ml" 38 884 891 "src/stream2.ml" 38 884 930
+)
+"src/stream2.ml" 37 857 873 "src/stream2.ml" 37 857 875
+type(
+  'e stream
+)
+ident(
+  def s2 "src/stream2.ml" 38 884 891 "src/stream2.ml" 38 884 930
+)
+"src/stream2.ml" 37 857 868 "src/stream2.ml" 37 857 876
+type(
+  'e * 'e stream
+)
+"src/stream2.ml" 37 857 879 "src/stream2.ml" 37 857 880
+type(
+  unit -> 'e * 'e stream
+)
+ident(
+  int_ref b "src/stream2.ml" 35 795 828 "src/stream2.ml" 35 795 829
+)
+"src/stream2.ml" 37 857 881 "src/stream2.ml" 37 857 883
+type(
+  unit
+)
+"src/stream2.ml" 37 857 879 "src/stream2.ml" 37 857 883
+call(
+  stack
+)
+type(
+  'e * 'e stream
+)
+"src/stream2.ml" 38 884 902 "src/stream2.ml" 38 884 904
+type(
+  unit
+)
+"src/stream2.ml" 38 884 910 "src/stream2.ml" 38 884 912
+type(
+  'd
+)
+ident(
+  int_ref a1 "src/stream2.ml" 36 833 842 "src/stream2.ml" 36 833 844
+)
+"src/stream2.ml" 38 884 914 "src/stream2.ml" 38 884 916
+type(
+  'e
+)
+ident(
+  int_ref a2 "src/stream2.ml" 37 857 869 "src/stream2.ml" 37 857 871
+)
+"src/stream2.ml" 38 884 909 "src/stream2.ml" 38 884 917
+type(
+  'd * 'e
+)
+"src/stream2.ml" 38 884 919 "src/stream2.ml" 38 884 922
+type(
+  'd stream -> 'e stream -> ('d * 'e) stream
+)
+ident(
+  int_ref zip "src/stream2.ml" 35 795 805 "src/stream2.ml" 35 795 808
+)
+"src/stream2.ml" 38 884 923 "src/stream2.ml" 38 884 925
+type(
+  'd stream
+)
+ident(
+  int_ref s1 "src/stream2.ml" 36 833 846 "src/stream2.ml" 36 833 848
+)
+"src/stream2.ml" 38 884 926 "src/stream2.ml" 38 884 928
+type(
+  'e stream
+)
+ident(
+  int_ref s2 "src/stream2.ml" 37 857 873 "src/stream2.ml" 37 857 875
+)
+"src/stream2.ml" 38 884 919 "src/stream2.ml" 38 884 928
+call(
+  stack
+)
+type(
+  ('d * 'e) stream
+)
+"src/stream2.ml" 38 884 908 "src/stream2.ml" 38 884 929
+type(
+  ('d * 'e) * ('d * 'e) stream
+)
+"src/stream2.ml" 38 884 897 "src/stream2.ml" 38 884 930
+type(
+  unit -> ('d * 'e) * ('d * 'e) stream
+)
+"src/stream2.ml" 38 884 891 "src/stream2.ml" 38 884 930
+type(
+  ('d * 'e) stream
+)
+"src/stream2.ml" 37 857 864 "src/stream2.ml" 38 884 930
+type(
+  ('d * 'e) stream
+)
+"src/stream2.ml" 36 833 837 "src/stream2.ml" 38 884 930
+type(
+  ('d * 'e) stream
+)
+"src/stream2.ml" 43 936 942 "src/stream2.ml" 43 936 951
+type(
+  'f stream -> (int * 'f) stream
+)
+ident(
+  def enumerate "src/stream2.ml" 51 1104 1106 "src/stream2.ml" 56 1249 1252
+)
+"src/stream2.ml" 43 936 952 "src/stream2.ml" 43 936 953
+type(
+  'f stream
+)
+ident(
+  def s "src/stream2.ml" 44 956 960 "src/stream2.ml" 48 1084 1101
+)
+"src/stream2.ml" 44 956 968 "src/stream2.ml" 44 956 974
+type(
+  'g stream -> int -> (int * 'g) stream
+)
+ident(
+  def helper "src/stream2.ml" 44 956 960 "src/stream2.ml" 48 1084 1101
+)
+"src/stream2.ml" 44 956 975 "src/stream2.ml" 44 956 976
+type(
+  'g stream
+)
+ident(
+  def s "src/stream2.ml" 44 956 977 "src/stream2.ml" 47 1034 1083
+)
+"src/stream2.ml" 44 956 977 "src/stream2.ml" 44 956 978
+type(
+  int
+)
+ident(
+  def i "src/stream2.ml" 45 982 986 "src/stream2.ml" 47 1034 1083
+)
+"src/stream2.ml" 45 982 997 "src/stream2.ml" 45 982 998
+ident(
+  def f "src/stream2.ml" 46 1008 1012 "src/stream2.ml" 47 1034 1083
+)
+"src/stream2.ml" 45 982 996 "src/stream2.ml" 45 982 999
+type(
+  unit -> 'g * 'g stream
+)
+"src/stream2.ml" 45 982 990 "src/stream2.ml" 45 982 999
+type(
+  'g stream
+)
+"src/stream2.ml" 45 982 1002 "src/stream2.ml" 45 982 1003
+type(
+  'g stream
+)
+ident(
+  int_ref s "src/stream2.ml" 44 956 975 "src/stream2.ml" 44 956 976
+)
+"src/stream2.ml" 46 1008 1017 "src/stream2.ml" 46 1008 1018
+type(
+  'g
+)
+ident(
+  def a "src/stream2.ml" 47 1034 1038 "src/stream2.ml" 47 1034 1083
+)
+"src/stream2.ml" 46 1008 1020 "src/stream2.ml" 46 1008 1022
+type(
+  'g stream
+)
+ident(
+  def rs "src/stream2.ml" 47 1034 1038 "src/stream2.ml" 47 1034 1083
+)
+"src/stream2.ml" 46 1008 1016 "src/stream2.ml" 46 1008 1023
+type(
+  'g * 'g stream
+)
+"src/stream2.ml" 46 1008 1026 "src/stream2.ml" 46 1008 1027
+type(
+  unit -> 'g * 'g stream
+)
+ident(
+  int_ref f "src/stream2.ml" 45 982 996 "src/stream2.ml" 45 982 999
+)
+"src/stream2.ml" 46 1008 1027 "src/stream2.ml" 46 1008 1029
+type(
+  unit
+)
+"src/stream2.ml" 46 1008 1026 "src/stream2.ml" 46 1008 1029
+call(
+  stack
+)
+type(
+  'g * 'g stream
+)
+"src/stream2.ml" 47 1034 1049 "src/stream2.ml" 47 1034 1051
+type(
+  unit
+)
+"src/stream2.ml" 47 1034 1057 "src/stream2.ml" 47 1034 1058
+type(
+  int
+)
+ident(
+  int_ref i "src/stream2.ml" 44 956 977 "src/stream2.ml" 44 956 978
+)
+"src/stream2.ml" 47 1034 1060 "src/stream2.ml" 47 1034 1061
+type(
+  'g
+)
+ident(
+  int_ref a "src/stream2.ml" 46 1008 1017 "src/stream2.ml" 46 1008 1018
+)
+"src/stream2.ml" 47 1034 1056 "src/stream2.ml" 47 1034 1062
+type(
+  int * 'g
+)
+"src/stream2.ml" 47 1034 1064 "src/stream2.ml" 47 1034 1070
+type(
+  'g stream -> int -> (int * 'g) stream
+)
+ident(
+  int_ref helper "src/stream2.ml" 44 956 968 "src/stream2.ml" 44 956 974
+)
+"src/stream2.ml" 47 1034 1071 "src/stream2.ml" 47 1034 1073
+type(
+  'g stream
+)
+ident(
+  int_ref rs "src/stream2.ml" 46 1008 1020 "src/stream2.ml" 46 1008 1022
+)
+"src/stream2.ml" 47 1034 1075 "src/stream2.ml" 47 1034 1076
+type(
+  int
+)
+ident(
+  int_ref i "src/stream2.ml" 44 956 977 "src/stream2.ml" 44 956 978
+)
+"src/stream2.ml" 47 1034 1077 "src/stream2.ml" 47 1034 1078
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Core.( + ) "src/core_pervasives.mli" 212 8365 8365 "src/core_pervasives.mli" 212 8365 8411
+)
+"src/stream2.ml" 47 1034 1079 "src/stream2.ml" 47 1034 1080
+type(
+  int
+)
+"src/stream2.ml" 47 1034 1074 "src/stream2.ml" 47 1034 1081
+type(
+  int
+)
+"src/stream2.ml" 47 1034 1064 "src/stream2.ml" 47 1034 1081
+call(
+  stack
+)
+type(
+  (int * 'g) stream
+)
+"src/stream2.ml" 47 1034 1055 "src/stream2.ml" 47 1034 1082
+type(
+  (int * 'g) * (int * 'g) stream
+)
+"src/stream2.ml" 47 1034 1044 "src/stream2.ml" 47 1034 1083
+type(
+  unit -> (int * 'g) * (int * 'g) stream
+)
+"src/stream2.ml" 47 1034 1038 "src/stream2.ml" 47 1034 1083
+type(
+  (int * 'g) stream
+)
+"src/stream2.ml" 46 1008 1012 "src/stream2.ml" 47 1034 1083
+type(
+  (int * 'g) stream
+)
+"src/stream2.ml" 45 982 986 "src/stream2.ml" 47 1034 1083
+type(
+  (int * 'g) stream
+)
+"src/stream2.ml" 48 1084 1091 "src/stream2.ml" 48 1084 1097
+type(
+  'f stream -> int -> (int * 'f) stream
+)
+ident(
+  int_ref helper "src/stream2.ml" 44 956 968 "src/stream2.ml" 44 956 974
+)
+"src/stream2.ml" 48 1084 1098 "src/stream2.ml" 48 1084 1099
+type(
+  'f stream
+)
+ident(
+  int_ref s "src/stream2.ml" 43 936 952 "src/stream2.ml" 43 936 953
+)
+"src/stream2.ml" 48 1084 1100 "src/stream2.ml" 48 1084 1101
+type(
+  int
+)
+"src/stream2.ml" 48 1084 1091 "src/stream2.ml" 48 1084 1101
+call(
+  tail
+)
+type(
+  (int * 'f) stream
+)
+"src/stream2.ml" 44 956 960 "src/stream2.ml" 48 1084 1101
+type(
+  (int * 'f) stream
+)
+"src/stream2.ml" 51 1104 1114 "src/stream2.ml" 51 1104 1121
+type(
+  'h stream -> int -> 'h List2.MyList.list stream
+)
+ident(
+  def windows "src/stream2.ml" 51 1104 1106 "src/stream2.ml" 56 1249 1252
+)
+"src/stream2.ml" 51 1104 1122 "src/stream2.ml" 51 1104 1123
+type(
+  'h stream
+)
+ident(
+  def s "src/stream2.ml" 51 1104 1124 "src/stream2.ml" 55 1206 1248
+)
+"src/stream2.ml" 51 1104 1124 "src/stream2.ml" 51 1104 1125
+type(
+  int
+)
+ident(
+  def n "src/stream2.ml" 52 1128 1132 "src/stream2.ml" 55 1206 1248
+)
+"src/stream2.ml" 52 1128 1137 "src/stream2.ml" 52 1128 1139
+type(
+  'h List2.MyList.list
+)
+ident(
+  def fn "src/stream2.ml" 53 1156 1163 "src/stream2.ml" 55 1206 1248
+)
+"src/stream2.ml" 52 1128 1141 "src/stream2.ml" 52 1128 1142
+type(
+  'h stream
+)
+"src/stream2.ml" 52 1128 1136 "src/stream2.ml" 52 1128 1143
+type(
+  'h List2.MyList.list * 'h stream
+)
+"src/stream2.ml" 52 1128 1146 "src/stream2.ml" 52 1128 1150
+type(
+  'h stream -> int -> 'h List2.MyList.list * 'h stream
+)
+ident(
+  int_ref take "src/stream2.ml" 27 616 626 "src/stream2.ml" 27 616 630
+)
+"src/stream2.ml" 52 1128 1151 "src/stream2.ml" 52 1128 1152
+type(
+  'h stream
+)
+ident(
+  int_ref s "src/stream2.ml" 51 1104 1122 "src/stream2.ml" 51 1104 1123
+)
+"src/stream2.ml" 52 1128 1153 "src/stream2.ml" 52 1128 1154
+type(
+  int
+)
+ident(
+  int_ref n "src/stream2.ml" 51 1104 1124 "src/stream2.ml" 51 1104 1125
+)
+"src/stream2.ml" 52 1128 1146 "src/stream2.ml" 52 1128 1154
+call(
+  stack
+)
+type(
+  'h List2.MyList.list * 'h stream
+)
+"src/stream2.ml" 53 1156 1174 "src/stream2.ml" 53 1156 1175
+ident(
+  def f "src/stream2.ml" 54 1182 1189 "src/stream2.ml" 55 1206 1248
+)
+"src/stream2.ml" 53 1156 1173 "src/stream2.ml" 53 1156 1176
+type(
+  unit -> 'h * 'h stream
+)
+"src/stream2.ml" 53 1156 1167 "src/stream2.ml" 53 1156 1176
+type(
+  'h stream
+)
+"src/stream2.ml" 53 1156 1179 "src/stream2.ml" 53 1156 1180
+type(
+  'h stream
+)
+ident(
+  int_ref s "src/stream2.ml" 51 1104 1122 "src/stream2.ml" 51 1104 1123
+)
+"src/stream2.ml" 54 1182 1194 "src/stream2.ml" 54 1182 1195
+type(
+  'h
+)
+"src/stream2.ml" 54 1182 1197 "src/stream2.ml" 54 1182 1198
+type(
+  'h stream
+)
+ident(
+  def l "src/stream2.ml" 55 1206 1214 "src/stream2.ml" 55 1206 1248
+)
+"src/stream2.ml" 54 1182 1193 "src/stream2.ml" 54 1182 1199
+type(
+  'h * 'h stream
+)
+"src/stream2.ml" 54 1182 1202 "src/stream2.ml" 54 1182 1203
+type(
+  unit -> 'h * 'h stream
+)
+ident(
+  int_ref f "src/stream2.ml" 53 1156 1173 "src/stream2.ml" 53 1156 1176
+)
+"src/stream2.ml" 54 1182 1203 "src/stream2.ml" 54 1182 1205
+type(
+  unit
+)
+"src/stream2.ml" 54 1182 1202 "src/stream2.ml" 54 1182 1205
+call(
+  stack
+)
+type(
+  'h * 'h stream
+)
+"src/stream2.ml" 55 1206 1224 "src/stream2.ml" 55 1206 1226
+type(
+  unit
+)
+"src/stream2.ml" 55 1206 1231 "src/stream2.ml" 55 1206 1233
+type(
+  'h List2.MyList.list
+)
+ident(
+  int_ref fn "src/stream2.ml" 52 1128 1137 "src/stream2.ml" 52 1128 1139
+)
+"src/stream2.ml" 55 1206 1235 "src/stream2.ml" 55 1206 1242
+type(
+  'h stream -> int -> 'h List2.MyList.list stream
+)
+ident(
+  int_ref windows "src/stream2.ml" 51 1104 1114 "src/stream2.ml" 51 1104 1121
+)
+"src/stream2.ml" 55 1206 1243 "src/stream2.ml" 55 1206 1244
+type(
+  'h stream
+)
+ident(
+  int_ref l "src/stream2.ml" 54 1182 1197 "src/stream2.ml" 54 1182 1198
+)
+"src/stream2.ml" 55 1206 1245 "src/stream2.ml" 55 1206 1246
+type(
+  int
+)
+ident(
+  int_ref n "src/stream2.ml" 51 1104 1124 "src/stream2.ml" 51 1104 1125
+)
+"src/stream2.ml" 55 1206 1235 "src/stream2.ml" 55 1206 1246
+call(
+  stack
+)
+type(
+  'h List2.MyList.list stream
+)
+"src/stream2.ml" 55 1206 1230 "src/stream2.ml" 55 1206 1247
+type(
+  'h List2.MyList.list * 'h List2.MyList.list stream
+)
+"src/stream2.ml" 55 1206 1220 "src/stream2.ml" 55 1206 1248
+type(
+  unit -> 'h List2.MyList.list * 'h List2.MyList.list stream
+)
+"src/stream2.ml" 55 1206 1214 "src/stream2.ml" 55 1206 1248
+type(
+  'h List2.MyList.list stream
+)
+"src/stream2.ml" 54 1182 1189 "src/stream2.ml" 55 1206 1248
+type(
+  'h List2.MyList.list stream
+)
+"src/stream2.ml" 53 1156 1163 "src/stream2.ml" 55 1206 1248
+type(
+  'h List2.MyList.list stream
+)
+"src/stream2.ml" 52 1128 1132 "src/stream2.ml" 55 1206 1248
+type(
+  'h List2.MyList.list stream
+)
+"src/stream2.ml" 61 1308 1318 "src/stream2.ml" 61 1308 1324
+type(
+  int -> int stream
+)
+ident(
+  def repeat "src/stream2.ml" 61 1308 1310 "src/stream2.ml" 122 2962 2965
+)
+"src/stream2.ml" 61 1308 1326 "src/stream2.ml" 61 1308 1327
+type(
+  int
+)
+ident(
+  def n "src/stream2.ml" 61 1308 1335 "src/stream2.ml" 62 1350 1388
+)
+"src/stream2.ml" 62 1350 1366 "src/stream2.ml" 62 1350 1368
+type(
+  unit
+)
+"src/stream2.ml" 62 1350 1373 "src/stream2.ml" 62 1350 1374
+type(
+  int
+)
+ident(
+  int_ref n "src/stream2.ml" 61 1308 1326 "src/stream2.ml" 61 1308 1327
+)
+"src/stream2.ml" 62 1350 1376 "src/stream2.ml" 62 1350 1382
+type(
+  int -> int stream
+)
+ident(
+  int_ref repeat "src/stream2.ml" 61 1308 1318 "src/stream2.ml" 61 1308 1324
+)
+"src/stream2.ml" 62 1350 1383 "src/stream2.ml" 62 1350 1386
+type(
+  int
+)
+ident(
+  int_ref n "src/stream2.ml" 61 1308 1326 "src/stream2.ml" 61 1308 1327
+)
+"src/stream2.ml" 62 1350 1376 "src/stream2.ml" 62 1350 1386
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 62 1350 1372 "src/stream2.ml" 62 1350 1387
+type(
+  int * int stream
+)
+"src/stream2.ml" 62 1350 1361 "src/stream2.ml" 62 1350 1388
+type(
+  unit -> int * int stream
+)
+"src/stream2.ml" 62 1350 1354 "src/stream2.ml" 62 1350 1388
+type(
+  int stream
+)
+type(
+  int stream
+)
+"src/stream2.ml" 64 1394 1400 "src/stream2.ml" 64 1394 1401
+type(
+  (int * int) stream
+)
+ident(
+  def s "src/stream2.ml" 65 1429 1431 "src/stream2.ml" 82 1955 2014
+)
+"src/stream2.ml" 64 1394 1404 "src/stream2.ml" 64 1394 1413
+type(
+  int stream -> (int * int) stream
+)
+ident(
+  int_ref S.enumerate "src/stream2.ml" 12 307 309 "src/stream2.ml" 12 307 355
+)
+"src/stream2.ml" 64 1394 1415 "src/stream2.ml" 64 1394 1421
+type(
+  int -> int stream
+)
+ident(
+  int_ref repeat "src/stream2.ml" 61 1308 1318 "src/stream2.ml" 61 1308 1324
+)
+"src/stream2.ml" 64 1394 1422 "src/stream2.ml" 64 1394 1423
+type(
+  int
+)
+"src/stream2.ml" 64 1394 1414 "src/stream2.ml" 64 1394 1424
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 64 1394 1404 "src/stream2.ml" 64 1394 1424
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 65 1429 1439 "src/stream2.ml" 65 1429 1443
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 65 1429 1444 "src/stream2.ml" 65 1429 1445
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 64 1394 1400 "src/stream2.ml" 64 1394 1401
+)
+"src/stream2.ml" 65 1429 1439 "src/stream2.ml" 65 1429 1445
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 65 1429 1446 "src/stream2.ml" 65 1429 1447
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 65 1429 1449 "src/stream2.ml" 65 1429 1450
+type(
+  int
+)
+"src/stream2.ml" 65 1429 1452 "src/stream2.ml" 65 1429 1453
+type(
+  int
+)
+"src/stream2.ml" 65 1429 1448 "src/stream2.ml" 65 1429 1454
+type(
+  int * int
+)
+"src/stream2.ml" 65 1429 1438 "src/stream2.ml" 65 1429 1455
+type(
+  bool
+)
+"src/stream2.ml" 65 1429 1431 "src/stream2.ml" 65 1429 1455
+type(
+  unit
+)
+"src/stream2.ml" 66 1457 1467 "src/stream2.ml" 66 1457 1471
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 66 1457 1473 "src/stream2.ml" 66 1457 1477
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 66 1457 1478 "src/stream2.ml" 66 1457 1479
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 64 1394 1400 "src/stream2.ml" 64 1394 1401
+)
+"src/stream2.ml" 66 1457 1472 "src/stream2.ml" 66 1457 1480
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 66 1457 1467 "src/stream2.ml" 66 1457 1480
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 66 1457 1481 "src/stream2.ml" 66 1457 1482
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 66 1457 1484 "src/stream2.ml" 66 1457 1485
+type(
+  int
+)
+"src/stream2.ml" 66 1457 1487 "src/stream2.ml" 66 1457 1488
+type(
+  int
+)
+"src/stream2.ml" 66 1457 1483 "src/stream2.ml" 66 1457 1489
+type(
+  int * int
+)
+"src/stream2.ml" 66 1457 1466 "src/stream2.ml" 66 1457 1490
+type(
+  bool
+)
+"src/stream2.ml" 66 1457 1459 "src/stream2.ml" 66 1457 1490
+type(
+  unit
+)
+"src/stream2.ml" 67 1492 1502 "src/stream2.ml" 67 1492 1506
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 67 1492 1508 "src/stream2.ml" 67 1492 1512
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 67 1492 1514 "src/stream2.ml" 67 1492 1518
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 67 1492 1519 "src/stream2.ml" 67 1492 1520
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 64 1394 1400 "src/stream2.ml" 64 1394 1401
+)
+"src/stream2.ml" 67 1492 1513 "src/stream2.ml" 67 1492 1521
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 67 1492 1507 "src/stream2.ml" 67 1492 1522
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 67 1492 1502 "src/stream2.ml" 67 1492 1522
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 67 1492 1523 "src/stream2.ml" 67 1492 1524
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 67 1492 1526 "src/stream2.ml" 67 1492 1527
+type(
+  int
+)
+"src/stream2.ml" 67 1492 1529 "src/stream2.ml" 67 1492 1530
+type(
+  int
+)
+"src/stream2.ml" 67 1492 1525 "src/stream2.ml" 67 1492 1531
+type(
+  int * int
+)
+"src/stream2.ml" 67 1492 1501 "src/stream2.ml" 67 1492 1532
+type(
+  bool
+)
+"src/stream2.ml" 67 1492 1494 "src/stream2.ml" 67 1492 1532
+type(
+  unit
+)
+"src/stream2.ml" 68 1534 1544 "src/stream2.ml" 68 1534 1548
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 68 1534 1550 "src/stream2.ml" 68 1534 1554
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 68 1534 1556 "src/stream2.ml" 68 1534 1560
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 68 1534 1562 "src/stream2.ml" 68 1534 1566
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 68 1534 1567 "src/stream2.ml" 68 1534 1568
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 64 1394 1400 "src/stream2.ml" 64 1394 1401
+)
+"src/stream2.ml" 68 1534 1561 "src/stream2.ml" 68 1534 1569
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 68 1534 1555 "src/stream2.ml" 68 1534 1570
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 68 1534 1549 "src/stream2.ml" 68 1534 1571
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 68 1534 1544 "src/stream2.ml" 68 1534 1571
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 68 1534 1572 "src/stream2.ml" 68 1534 1573
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 68 1534 1575 "src/stream2.ml" 68 1534 1576
+type(
+  int
+)
+"src/stream2.ml" 68 1534 1578 "src/stream2.ml" 68 1534 1579
+type(
+  int
+)
+"src/stream2.ml" 68 1534 1574 "src/stream2.ml" 68 1534 1580
+type(
+  int * int
+)
+"src/stream2.ml" 68 1534 1543 "src/stream2.ml" 68 1534 1581
+type(
+  bool
+)
+"src/stream2.ml" 68 1534 1536 "src/stream2.ml" 68 1534 1581
+type(
+  unit
+)
+"src/stream2.ml" 70 1584 1590 "src/stream2.ml" 70 1584 1591
+type(
+  (int * int) stream
+)
+ident(
+  def s "src/stream2.ml" 71 1623 1625 "src/stream2.ml" 82 1955 2014
+)
+"src/stream2.ml" 70 1584 1594 "src/stream2.ml" 70 1584 1597
+type(
+  int stream -> int stream -> (int * int) stream
+)
+ident(
+  int_ref S.zip "src/stream2.ml" 11 252 254 "src/stream2.ml" 11 252 306
+)
+"src/stream2.ml" 70 1584 1599 "src/stream2.ml" 70 1584 1605
+type(
+  int -> int stream
+)
+ident(
+  int_ref repeat "src/stream2.ml" 61 1308 1318 "src/stream2.ml" 61 1308 1324
+)
+"src/stream2.ml" 70 1584 1606 "src/stream2.ml" 70 1584 1607
+type(
+  int
+)
+"src/stream2.ml" 70 1584 1598 "src/stream2.ml" 70 1584 1608
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 70 1584 1610 "src/stream2.ml" 70 1584 1616
+type(
+  int -> int stream
+)
+ident(
+  int_ref repeat "src/stream2.ml" 61 1308 1318 "src/stream2.ml" 61 1308 1324
+)
+"src/stream2.ml" 70 1584 1617 "src/stream2.ml" 70 1584 1618
+type(
+  int
+)
+"src/stream2.ml" 70 1584 1609 "src/stream2.ml" 70 1584 1619
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 70 1584 1594 "src/stream2.ml" 70 1584 1619
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 71 1623 1633 "src/stream2.ml" 71 1623 1637
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 71 1623 1638 "src/stream2.ml" 71 1623 1639
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 70 1584 1590 "src/stream2.ml" 70 1584 1591
+)
+"src/stream2.ml" 71 1623 1633 "src/stream2.ml" 71 1623 1639
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 71 1623 1640 "src/stream2.ml" 71 1623 1641
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 71 1623 1643 "src/stream2.ml" 71 1623 1644
+type(
+  int
+)
+"src/stream2.ml" 71 1623 1646 "src/stream2.ml" 71 1623 1647
+type(
+  int
+)
+"src/stream2.ml" 71 1623 1642 "src/stream2.ml" 71 1623 1648
+type(
+  int * int
+)
+"src/stream2.ml" 71 1623 1632 "src/stream2.ml" 71 1623 1649
+type(
+  bool
+)
+"src/stream2.ml" 71 1623 1625 "src/stream2.ml" 71 1623 1649
+type(
+  unit
+)
+"src/stream2.ml" 72 1651 1661 "src/stream2.ml" 72 1651 1665
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 72 1651 1667 "src/stream2.ml" 72 1651 1671
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 72 1651 1672 "src/stream2.ml" 72 1651 1673
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 70 1584 1590 "src/stream2.ml" 70 1584 1591
+)
+"src/stream2.ml" 72 1651 1666 "src/stream2.ml" 72 1651 1674
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 72 1651 1661 "src/stream2.ml" 72 1651 1674
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 72 1651 1675 "src/stream2.ml" 72 1651 1676
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 72 1651 1678 "src/stream2.ml" 72 1651 1679
+type(
+  int
+)
+"src/stream2.ml" 72 1651 1681 "src/stream2.ml" 72 1651 1682
+type(
+  int
+)
+"src/stream2.ml" 72 1651 1677 "src/stream2.ml" 72 1651 1683
+type(
+  int * int
+)
+"src/stream2.ml" 72 1651 1660 "src/stream2.ml" 72 1651 1684
+type(
+  bool
+)
+"src/stream2.ml" 72 1651 1653 "src/stream2.ml" 72 1651 1684
+type(
+  unit
+)
+"src/stream2.ml" 73 1686 1696 "src/stream2.ml" 73 1686 1700
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 73 1686 1702 "src/stream2.ml" 73 1686 1706
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 73 1686 1708 "src/stream2.ml" 73 1686 1712
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 73 1686 1713 "src/stream2.ml" 73 1686 1714
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 70 1584 1590 "src/stream2.ml" 70 1584 1591
+)
+"src/stream2.ml" 73 1686 1707 "src/stream2.ml" 73 1686 1715
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 73 1686 1701 "src/stream2.ml" 73 1686 1716
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 73 1686 1696 "src/stream2.ml" 73 1686 1716
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 73 1686 1717 "src/stream2.ml" 73 1686 1718
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 73 1686 1720 "src/stream2.ml" 73 1686 1721
+type(
+  int
+)
+"src/stream2.ml" 73 1686 1723 "src/stream2.ml" 73 1686 1724
+type(
+  int
+)
+"src/stream2.ml" 73 1686 1719 "src/stream2.ml" 73 1686 1725
+type(
+  int * int
+)
+"src/stream2.ml" 73 1686 1695 "src/stream2.ml" 73 1686 1726
+type(
+  bool
+)
+"src/stream2.ml" 73 1686 1688 "src/stream2.ml" 73 1686 1726
+type(
+  unit
+)
+"src/stream2.ml" 75 1729 1735 "src/stream2.ml" 75 1729 1736
+type(
+  (int * int) stream
+)
+ident(
+  def s "src/stream2.ml" 76 1763 1765 "src/stream2.ml" 82 1955 2014
+)
+"src/stream2.ml" 75 1729 1739 "src/stream2.ml" 75 1729 1748
+type(
+  int stream -> (int * int) stream
+)
+ident(
+  int_ref S.enumerate "src/stream2.ml" 12 307 309 "src/stream2.ml" 12 307 355
+)
+"src/stream2.ml" 75 1729 1750 "src/stream2.ml" 75 1729 1756
+type(
+  int -> int stream
+)
+ident(
+  int_ref repeat "src/stream2.ml" 61 1308 1318 "src/stream2.ml" 61 1308 1324
+)
+"src/stream2.ml" 75 1729 1757 "src/stream2.ml" 75 1729 1758
+type(
+  int
+)
+"src/stream2.ml" 75 1729 1749 "src/stream2.ml" 75 1729 1759
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 75 1729 1739 "src/stream2.ml" 75 1729 1759
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 76 1763 1770 "src/stream2.ml" 76 1763 1771
+type(
+  (int * int) List2.MyList.list
+)
+ident(
+  def l "src/stream2.ml" 77 1790 1792 "src/stream2.ml" 82 1955 2014
+)
+"src/stream2.ml" 76 1763 1773 "src/stream2.ml" 76 1763 1774
+type(
+  (int * int) stream
+)
+ident(
+  def s "src/stream2.ml" 77 1790 1792 "src/stream2.ml" 82 1955 2014
+)
+"src/stream2.ml" 76 1763 1769 "src/stream2.ml" 76 1763 1775
+type(
+  (int * int) List2.MyList.list * (int * int) stream
+)
+"src/stream2.ml" 76 1763 1778 "src/stream2.ml" 76 1763 1782
+type(
+  (int * int) stream ->
+  int -> (int * int) List2.MyList.list * (int * int) stream
+)
+ident(
+  int_ref S.take "src/stream2.ml" 10 199 201 "src/stream2.ml" 10 199 251
+)
+"src/stream2.ml" 76 1763 1783 "src/stream2.ml" 76 1763 1784
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 75 1729 1735 "src/stream2.ml" 75 1729 1736
+)
+"src/stream2.ml" 76 1763 1785 "src/stream2.ml" 76 1763 1786
+type(
+  int
+)
+"src/stream2.ml" 76 1763 1778 "src/stream2.ml" 76 1763 1786
+call(
+  stack
+)
+type(
+  (int * int) List2.MyList.list * (int * int) stream
+)
+"src/stream2.ml" 77 1790 1800 "src/stream2.ml" 77 1790 1801
+type(
+  (int * int) List2.MyList.list
+)
+ident(
+  int_ref l "src/stream2.ml" 76 1763 1770 "src/stream2.ml" 76 1763 1771
+)
+"src/stream2.ml" 77 1790 1802 "src/stream2.ml" 77 1790 1803
+type(
+  (int * int) List2.MyList.list -> (int * int) List2.MyList.list -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 77 1790 1810 "src/stream2.ml" 77 1790 1811
+type(
+  int
+)
+"src/stream2.ml" 77 1790 1813 "src/stream2.ml" 77 1790 1814
+type(
+  int
+)
+"src/stream2.ml" 77 1790 1809 "src/stream2.ml" 77 1790 1815
+type(
+  int * int
+)
+"src/stream2.ml" 77 1790 1823 "src/stream2.ml" 77 1790 1824
+type(
+  int
+)
+"src/stream2.ml" 77 1790 1826 "src/stream2.ml" 77 1790 1827
+type(
+  int
+)
+"src/stream2.ml" 77 1790 1822 "src/stream2.ml" 77 1790 1828
+type(
+  int * int
+)
+"src/stream2.ml" 77 1790 1830 "src/stream2.ml" 77 1790 1833
+type(
+  (int * int) List2.MyList.list
+)
+"src/stream2.ml" 77 1790 1817 "src/stream2.ml" 77 1790 1834
+type(
+  (int * int) List2.MyList.list
+)
+"src/stream2.ml" 77 1790 1804 "src/stream2.ml" 77 1790 1835
+type(
+  (int * int) List2.MyList.list
+)
+"src/stream2.ml" 77 1790 1799 "src/stream2.ml" 77 1790 1836
+type(
+  bool
+)
+"src/stream2.ml" 77 1790 1792 "src/stream2.ml" 77 1790 1836
+type(
+  unit
+)
+"src/stream2.ml" 78 1838 1848 "src/stream2.ml" 78 1838 1852
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 78 1838 1853 "src/stream2.ml" 78 1838 1854
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 76 1763 1773 "src/stream2.ml" 76 1763 1774
+)
+"src/stream2.ml" 78 1838 1848 "src/stream2.ml" 78 1838 1854
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 78 1838 1855 "src/stream2.ml" 78 1838 1856
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 78 1838 1858 "src/stream2.ml" 78 1838 1859
+type(
+  int
+)
+"src/stream2.ml" 78 1838 1861 "src/stream2.ml" 78 1838 1862
+type(
+  int
+)
+"src/stream2.ml" 78 1838 1857 "src/stream2.ml" 78 1838 1863
+type(
+  int * int
+)
+"src/stream2.ml" 78 1838 1847 "src/stream2.ml" 78 1838 1864
+type(
+  bool
+)
+"src/stream2.ml" 78 1838 1840 "src/stream2.ml" 78 1838 1864
+type(
+  unit
+)
+"src/stream2.ml" 80 1867 1873 "src/stream2.ml" 80 1867 1874
+type(
+  int List2.MyList.list stream
+)
+ident(
+  def s "src/stream2.ml" 81 1901 1903 "src/stream2.ml" 82 1955 2014
+)
+"src/stream2.ml" 80 1867 1877 "src/stream2.ml" 80 1867 1884
+type(
+  int stream -> int -> int List2.MyList.list stream
+)
+ident(
+  int_ref S.windows "src/stream2.ml" 13 356 358 "src/stream2.ml" 13 356 408
+)
+"src/stream2.ml" 80 1867 1886 "src/stream2.ml" 80 1867 1892
+type(
+  int -> int stream
+)
+ident(
+  int_ref repeat "src/stream2.ml" 61 1308 1318 "src/stream2.ml" 61 1308 1324
+)
+"src/stream2.ml" 80 1867 1893 "src/stream2.ml" 80 1867 1894
+type(
+  int
+)
+"src/stream2.ml" 80 1867 1885 "src/stream2.ml" 80 1867 1895
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 80 1867 1896 "src/stream2.ml" 80 1867 1897
+type(
+  int
+)
+"src/stream2.ml" 80 1867 1877 "src/stream2.ml" 80 1867 1897
+call(
+  stack
+)
+type(
+  int List2.MyList.list stream
+)
+"src/stream2.ml" 81 1901 1911 "src/stream2.ml" 81 1901 1915
+type(
+  int List2.MyList.list stream -> int List2.MyList.list
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 81 1901 1916 "src/stream2.ml" 81 1901 1917
+type(
+  int List2.MyList.list stream
+)
+ident(
+  int_ref s "src/stream2.ml" 80 1867 1873 "src/stream2.ml" 80 1867 1874
+)
+"src/stream2.ml" 81 1901 1911 "src/stream2.ml" 81 1901 1917
+call(
+  stack
+)
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 81 1901 1918 "src/stream2.ml" 81 1901 1919
+type(
+  int List2.MyList.list -> int List2.MyList.list -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 81 1901 1926 "src/stream2.ml" 81 1901 1927
+type(
+  int
+)
+"src/stream2.ml" 81 1901 1934 "src/stream2.ml" 81 1901 1935
+type(
+  int
+)
+"src/stream2.ml" 81 1901 1942 "src/stream2.ml" 81 1901 1943
+type(
+  int
+)
+"src/stream2.ml" 81 1901 1945 "src/stream2.ml" 81 1901 1948
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 81 1901 1937 "src/stream2.ml" 81 1901 1949
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 81 1901 1929 "src/stream2.ml" 81 1901 1950
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 81 1901 1920 "src/stream2.ml" 81 1901 1952
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 81 1901 1910 "src/stream2.ml" 81 1901 1953
+type(
+  bool
+)
+"src/stream2.ml" 81 1901 1903 "src/stream2.ml" 81 1901 1953
+type(
+  unit
+)
+"src/stream2.ml" 82 1955 1965 "src/stream2.ml" 82 1955 1969
+type(
+  int List2.MyList.list stream -> int List2.MyList.list
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 82 1955 1971 "src/stream2.ml" 82 1955 1975
+type(
+  int List2.MyList.list stream -> int List2.MyList.list stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 82 1955 1976 "src/stream2.ml" 82 1955 1977
+type(
+  int List2.MyList.list stream
+)
+ident(
+  int_ref s "src/stream2.ml" 80 1867 1873 "src/stream2.ml" 80 1867 1874
+)
+"src/stream2.ml" 82 1955 1970 "src/stream2.ml" 82 1955 1978
+call(
+  stack
+)
+type(
+  int List2.MyList.list stream
+)
+"src/stream2.ml" 82 1955 1965 "src/stream2.ml" 82 1955 1978
+call(
+  stack
+)
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 82 1955 1979 "src/stream2.ml" 82 1955 1980
+type(
+  int List2.MyList.list -> int List2.MyList.list -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 82 1955 1987 "src/stream2.ml" 82 1955 1988
+type(
+  int
+)
+"src/stream2.ml" 82 1955 1995 "src/stream2.ml" 82 1955 1996
+type(
+  int
+)
+"src/stream2.ml" 82 1955 2003 "src/stream2.ml" 82 1955 2004
+type(
+  int
+)
+"src/stream2.ml" 82 1955 2006 "src/stream2.ml" 82 1955 2009
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 82 1955 1998 "src/stream2.ml" 82 1955 2010
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 82 1955 1990 "src/stream2.ml" 82 1955 2011
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 82 1955 1981 "src/stream2.ml" 82 1955 2013
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 82 1955 1964 "src/stream2.ml" 82 1955 2014
+type(
+  bool
+)
+"src/stream2.ml" 82 1955 1957 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 81 1901 1903 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 80 1867 1869 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 78 1838 1840 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 77 1790 1792 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 76 1763 1765 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 75 1729 1731 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 73 1686 1688 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 72 1651 1653 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 71 1623 1625 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 70 1584 1586 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 68 1534 1536 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 67 1492 1494 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 66 1457 1459 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 65 1429 1431 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 64 1394 1396 "src/stream2.ml" 82 1955 2014
+type(
+  unit
+)
+"src/stream2.ml" 85 2023 2033 "src/stream2.ml" 85 2023 2039
+type(
+  int -> int stream
+)
+ident(
+  def upfrom "src/stream2.ml" 85 2023 2025 "src/stream2.ml" 122 2962 2965
+)
+"src/stream2.ml" 85 2023 2041 "src/stream2.ml" 85 2023 2042
+type(
+  int
+)
+ident(
+  def n "src/stream2.ml" 85 2023 2050 "src/stream2.ml" 86 2065 2105
+)
+"src/stream2.ml" 86 2065 2079 "src/stream2.ml" 86 2065 2081
+type(
+  unit
+)
+"src/stream2.ml" 86 2065 2086 "src/stream2.ml" 86 2065 2087
+type(
+  int
+)
+ident(
+  int_ref n "src/stream2.ml" 85 2023 2041 "src/stream2.ml" 85 2023 2042
+)
+"src/stream2.ml" 86 2065 2089 "src/stream2.ml" 86 2065 2095
+type(
+  int -> int stream
+)
+ident(
+  int_ref upfrom "src/stream2.ml" 85 2023 2033 "src/stream2.ml" 85 2023 2039
+)
+"src/stream2.ml" 86 2065 2097 "src/stream2.ml" 86 2065 2098
+type(
+  int
+)
+ident(
+  int_ref n "src/stream2.ml" 85 2023 2041 "src/stream2.ml" 85 2023 2042
+)
+"src/stream2.ml" 86 2065 2099 "src/stream2.ml" 86 2065 2100
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Core.( + ) "src/core_pervasives.mli" 212 8365 8365 "src/core_pervasives.mli" 212 8365 8411
+)
+"src/stream2.ml" 86 2065 2101 "src/stream2.ml" 86 2065 2102
+type(
+  int
+)
+"src/stream2.ml" 86 2065 2096 "src/stream2.ml" 86 2065 2103
+type(
+  int
+)
+"src/stream2.ml" 86 2065 2089 "src/stream2.ml" 86 2065 2103
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 86 2065 2085 "src/stream2.ml" 86 2065 2104
+type(
+  int * int stream
+)
+"src/stream2.ml" 86 2065 2075 "src/stream2.ml" 86 2065 2105
+type(
+  unit -> int * int stream
+)
+"src/stream2.ml" 86 2065 2069 "src/stream2.ml" 86 2065 2105
+type(
+  int stream
+)
+type(
+  int stream
+)
+"src/stream2.ml" 89 2112 2118 "src/stream2.ml" 89 2112 2119
+type(
+  int stream
+)
+ident(
+  def s "src/stream2.ml" 90 2134 2136 "src/stream2.ml" 100 2414 2473
+)
+"src/stream2.ml" 89 2112 2122 "src/stream2.ml" 89 2112 2128
+type(
+  int -> int stream
+)
+ident(
+  int_ref upfrom "src/stream2.ml" 85 2023 2033 "src/stream2.ml" 85 2023 2039
+)
+"src/stream2.ml" 89 2112 2129 "src/stream2.ml" 89 2112 2130
+type(
+  int
+)
+"src/stream2.ml" 89 2112 2122 "src/stream2.ml" 89 2112 2130
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 90 2134 2144 "src/stream2.ml" 90 2134 2148
+type(
+  int stream -> int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 90 2134 2149 "src/stream2.ml" 90 2134 2150
+type(
+  int stream
+)
+ident(
+  int_ref s "src/stream2.ml" 89 2112 2118 "src/stream2.ml" 89 2112 2119
+)
+"src/stream2.ml" 90 2134 2144 "src/stream2.ml" 90 2134 2150
+call(
+  stack
+)
+type(
+  int
+)
+"src/stream2.ml" 90 2134 2151 "src/stream2.ml" 90 2134 2152
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 90 2134 2153 "src/stream2.ml" 90 2134 2154
+type(
+  int
+)
+"src/stream2.ml" 90 2134 2143 "src/stream2.ml" 90 2134 2155
+type(
+  bool
+)
+"src/stream2.ml" 90 2134 2136 "src/stream2.ml" 90 2134 2155
+type(
+  unit
+)
+"src/stream2.ml" 91 2157 2167 "src/stream2.ml" 91 2157 2171
+type(
+  int stream -> int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 91 2157 2173 "src/stream2.ml" 91 2157 2177
+type(
+  int stream -> int stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 91 2157 2178 "src/stream2.ml" 91 2157 2179
+type(
+  int stream
+)
+ident(
+  int_ref s "src/stream2.ml" 89 2112 2118 "src/stream2.ml" 89 2112 2119
+)
+"src/stream2.ml" 91 2157 2172 "src/stream2.ml" 91 2157 2180
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 91 2157 2167 "src/stream2.ml" 91 2157 2180
+call(
+  stack
+)
+type(
+  int
+)
+"src/stream2.ml" 91 2157 2181 "src/stream2.ml" 91 2157 2182
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 91 2157 2183 "src/stream2.ml" 91 2157 2184
+type(
+  int
+)
+"src/stream2.ml" 91 2157 2166 "src/stream2.ml" 91 2157 2185
+type(
+  bool
+)
+"src/stream2.ml" 91 2157 2159 "src/stream2.ml" 91 2157 2185
+type(
+  unit
+)
+"src/stream2.ml" 93 2188 2194 "src/stream2.ml" 93 2188 2195
+type(
+  (int * int) stream
+)
+ident(
+  def s "src/stream2.ml" 94 2222 2224 "src/stream2.ml" 100 2414 2473
+)
+"src/stream2.ml" 93 2188 2198 "src/stream2.ml" 93 2188 2207
+type(
+  int stream -> (int * int) stream
+)
+ident(
+  int_ref S.enumerate "src/stream2.ml" 12 307 309 "src/stream2.ml" 12 307 355
+)
+"src/stream2.ml" 93 2188 2209 "src/stream2.ml" 93 2188 2215
+type(
+  int -> int stream
+)
+ident(
+  int_ref upfrom "src/stream2.ml" 85 2023 2033 "src/stream2.ml" 85 2023 2039
+)
+"src/stream2.ml" 93 2188 2216 "src/stream2.ml" 93 2188 2217
+type(
+  int
+)
+"src/stream2.ml" 93 2188 2208 "src/stream2.ml" 93 2188 2218
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 93 2188 2198 "src/stream2.ml" 93 2188 2218
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 94 2222 2229 "src/stream2.ml" 94 2222 2230
+type(
+  (int * int) List2.MyList.list
+)
+ident(
+  def l "src/stream2.ml" 95 2249 2251 "src/stream2.ml" 100 2414 2473
+)
+"src/stream2.ml" 94 2222 2232 "src/stream2.ml" 94 2222 2233
+type(
+  (int * int) stream
+)
+ident(
+  def s "src/stream2.ml" 95 2249 2251 "src/stream2.ml" 100 2414 2473
+)
+"src/stream2.ml" 94 2222 2228 "src/stream2.ml" 94 2222 2234
+type(
+  (int * int) List2.MyList.list * (int * int) stream
+)
+"src/stream2.ml" 94 2222 2237 "src/stream2.ml" 94 2222 2241
+type(
+  (int * int) stream ->
+  int -> (int * int) List2.MyList.list * (int * int) stream
+)
+ident(
+  int_ref S.take "src/stream2.ml" 10 199 201 "src/stream2.ml" 10 199 251
+)
+"src/stream2.ml" 94 2222 2242 "src/stream2.ml" 94 2222 2243
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 93 2188 2194 "src/stream2.ml" 93 2188 2195
+)
+"src/stream2.ml" 94 2222 2244 "src/stream2.ml" 94 2222 2245
+type(
+  int
+)
+"src/stream2.ml" 94 2222 2237 "src/stream2.ml" 94 2222 2245
+call(
+  stack
+)
+type(
+  (int * int) List2.MyList.list * (int * int) stream
+)
+"src/stream2.ml" 95 2249 2259 "src/stream2.ml" 95 2249 2260
+type(
+  (int * int) List2.MyList.list
+)
+ident(
+  int_ref l "src/stream2.ml" 94 2222 2229 "src/stream2.ml" 94 2222 2230
+)
+"src/stream2.ml" 95 2249 2261 "src/stream2.ml" 95 2249 2262
+type(
+  (int * int) List2.MyList.list -> (int * int) List2.MyList.list -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 95 2249 2269 "src/stream2.ml" 95 2249 2270
+type(
+  int
+)
+"src/stream2.ml" 95 2249 2272 "src/stream2.ml" 95 2249 2273
+type(
+  int
+)
+"src/stream2.ml" 95 2249 2268 "src/stream2.ml" 95 2249 2274
+type(
+  int * int
+)
+"src/stream2.ml" 95 2249 2282 "src/stream2.ml" 95 2249 2283
+type(
+  int
+)
+"src/stream2.ml" 95 2249 2285 "src/stream2.ml" 95 2249 2286
+type(
+  int
+)
+"src/stream2.ml" 95 2249 2281 "src/stream2.ml" 95 2249 2287
+type(
+  int * int
+)
+"src/stream2.ml" 95 2249 2289 "src/stream2.ml" 95 2249 2292
+type(
+  (int * int) List2.MyList.list
+)
+"src/stream2.ml" 95 2249 2276 "src/stream2.ml" 95 2249 2293
+type(
+  (int * int) List2.MyList.list
+)
+"src/stream2.ml" 95 2249 2263 "src/stream2.ml" 95 2249 2294
+type(
+  (int * int) List2.MyList.list
+)
+"src/stream2.ml" 95 2249 2258 "src/stream2.ml" 95 2249 2295
+type(
+  bool
+)
+"src/stream2.ml" 95 2249 2251 "src/stream2.ml" 95 2249 2295
+type(
+  unit
+)
+"src/stream2.ml" 96 2297 2307 "src/stream2.ml" 96 2297 2311
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 96 2297 2312 "src/stream2.ml" 96 2297 2313
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 94 2222 2232 "src/stream2.ml" 94 2222 2233
+)
+"src/stream2.ml" 96 2297 2307 "src/stream2.ml" 96 2297 2313
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 96 2297 2314 "src/stream2.ml" 96 2297 2315
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 96 2297 2317 "src/stream2.ml" 96 2297 2318
+type(
+  int
+)
+"src/stream2.ml" 96 2297 2320 "src/stream2.ml" 96 2297 2321
+type(
+  int
+)
+"src/stream2.ml" 96 2297 2316 "src/stream2.ml" 96 2297 2322
+type(
+  int * int
+)
+"src/stream2.ml" 96 2297 2306 "src/stream2.ml" 96 2297 2323
+type(
+  bool
+)
+"src/stream2.ml" 96 2297 2299 "src/stream2.ml" 96 2297 2323
+type(
+  unit
+)
+"src/stream2.ml" 98 2326 2332 "src/stream2.ml" 98 2326 2333
+type(
+  int List2.MyList.list stream
+)
+ident(
+  def s "src/stream2.ml" 99 2360 2362 "src/stream2.ml" 100 2414 2473
+)
+"src/stream2.ml" 98 2326 2336 "src/stream2.ml" 98 2326 2343
+type(
+  int stream -> int -> int List2.MyList.list stream
+)
+ident(
+  int_ref S.windows "src/stream2.ml" 13 356 358 "src/stream2.ml" 13 356 408
+)
+"src/stream2.ml" 98 2326 2345 "src/stream2.ml" 98 2326 2351
+type(
+  int -> int stream
+)
+ident(
+  int_ref upfrom "src/stream2.ml" 85 2023 2033 "src/stream2.ml" 85 2023 2039
+)
+"src/stream2.ml" 98 2326 2352 "src/stream2.ml" 98 2326 2353
+type(
+  int
+)
+"src/stream2.ml" 98 2326 2344 "src/stream2.ml" 98 2326 2354
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 98 2326 2355 "src/stream2.ml" 98 2326 2356
+type(
+  int
+)
+"src/stream2.ml" 98 2326 2336 "src/stream2.ml" 98 2326 2356
+call(
+  stack
+)
+type(
+  int List2.MyList.list stream
+)
+"src/stream2.ml" 99 2360 2370 "src/stream2.ml" 99 2360 2374
+type(
+  int List2.MyList.list stream -> int List2.MyList.list
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 99 2360 2375 "src/stream2.ml" 99 2360 2376
+type(
+  int List2.MyList.list stream
+)
+ident(
+  int_ref s "src/stream2.ml" 98 2326 2332 "src/stream2.ml" 98 2326 2333
+)
+"src/stream2.ml" 99 2360 2370 "src/stream2.ml" 99 2360 2376
+call(
+  stack
+)
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 99 2360 2377 "src/stream2.ml" 99 2360 2378
+type(
+  int List2.MyList.list -> int List2.MyList.list -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 99 2360 2385 "src/stream2.ml" 99 2360 2386
+type(
+  int
+)
+"src/stream2.ml" 99 2360 2393 "src/stream2.ml" 99 2360 2394
+type(
+  int
+)
+"src/stream2.ml" 99 2360 2401 "src/stream2.ml" 99 2360 2402
+type(
+  int
+)
+"src/stream2.ml" 99 2360 2404 "src/stream2.ml" 99 2360 2407
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 99 2360 2396 "src/stream2.ml" 99 2360 2408
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 99 2360 2388 "src/stream2.ml" 99 2360 2409
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 99 2360 2379 "src/stream2.ml" 99 2360 2411
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 99 2360 2369 "src/stream2.ml" 99 2360 2412
+type(
+  bool
+)
+"src/stream2.ml" 99 2360 2362 "src/stream2.ml" 99 2360 2412
+type(
+  unit
+)
+"src/stream2.ml" 100 2414 2424 "src/stream2.ml" 100 2414 2428
+type(
+  int List2.MyList.list stream -> int List2.MyList.list
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 100 2414 2430 "src/stream2.ml" 100 2414 2434
+type(
+  int List2.MyList.list stream -> int List2.MyList.list stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 100 2414 2435 "src/stream2.ml" 100 2414 2436
+type(
+  int List2.MyList.list stream
+)
+ident(
+  int_ref s "src/stream2.ml" 98 2326 2332 "src/stream2.ml" 98 2326 2333
+)
+"src/stream2.ml" 100 2414 2429 "src/stream2.ml" 100 2414 2437
+call(
+  stack
+)
+type(
+  int List2.MyList.list stream
+)
+"src/stream2.ml" 100 2414 2424 "src/stream2.ml" 100 2414 2437
+call(
+  stack
+)
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 100 2414 2438 "src/stream2.ml" 100 2414 2439
+type(
+  int List2.MyList.list -> int List2.MyList.list -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 100 2414 2446 "src/stream2.ml" 100 2414 2447
+type(
+  int
+)
+"src/stream2.ml" 100 2414 2454 "src/stream2.ml" 100 2414 2455
+type(
+  int
+)
+"src/stream2.ml" 100 2414 2462 "src/stream2.ml" 100 2414 2463
+type(
+  int
+)
+"src/stream2.ml" 100 2414 2465 "src/stream2.ml" 100 2414 2468
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 100 2414 2457 "src/stream2.ml" 100 2414 2469
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 100 2414 2449 "src/stream2.ml" 100 2414 2470
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 100 2414 2440 "src/stream2.ml" 100 2414 2472
+type(
+  int List2.MyList.list
+)
+"src/stream2.ml" 100 2414 2423 "src/stream2.ml" 100 2414 2473
+type(
+  bool
+)
+"src/stream2.ml" 100 2414 2416 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 99 2360 2362 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 98 2326 2328 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 96 2297 2299 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 95 2249 2251 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 94 2222 2224 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 93 2188 2190 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 91 2157 2159 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 90 2134 2136 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 89 2112 2114 "src/stream2.ml" 100 2414 2473
+type(
+  unit
+)
+"src/stream2.ml" 104 2483 2489 "src/stream2.ml" 104 2483 2492
+type(
+  unit -> int stream
+)
+ident(
+  def fib "src/stream2.ml" 110 2615 2617 "src/stream2.ml" 122 2962 2965
+)
+"src/stream2.ml" 104 2483 2493 "src/stream2.ml" 104 2483 2495
+type(
+  unit
+)
+"src/stream2.ml" 105 2511 2523 "src/stream2.ml" 105 2511 2526
+type(
+  int -> int -> int stream
+)
+ident(
+  def aux "src/stream2.ml" 105 2511 2515 "src/stream2.ml" 107 2594 2608
+)
+"src/stream2.ml" 105 2511 2527 "src/stream2.ml" 105 2511 2531
+type(
+  int
+)
+ident(
+  def curr "src/stream2.ml" 105 2511 2532 "src/stream2.ml" 106 2540 2593
+)
+"src/stream2.ml" 105 2511 2532 "src/stream2.ml" 105 2511 2536
+type(
+  int
+)
+ident(
+  def next "src/stream2.ml" 106 2540 2546 "src/stream2.ml" 106 2540 2593
+)
+"src/stream2.ml" 106 2540 2556 "src/stream2.ml" 106 2540 2558
+type(
+  unit
+)
+"src/stream2.ml" 106 2540 2563 "src/stream2.ml" 106 2540 2567
+type(
+  int
+)
+ident(
+  int_ref curr "src/stream2.ml" 105 2511 2527 "src/stream2.ml" 105 2511 2531
+)
+"src/stream2.ml" 106 2540 2569 "src/stream2.ml" 106 2540 2572
+type(
+  int -> int -> int stream
+)
+ident(
+  int_ref aux "src/stream2.ml" 105 2511 2523 "src/stream2.ml" 105 2511 2526
+)
+"src/stream2.ml" 106 2540 2573 "src/stream2.ml" 106 2540 2577
+type(
+  int
+)
+ident(
+  int_ref next "src/stream2.ml" 105 2511 2532 "src/stream2.ml" 105 2511 2536
+)
+"src/stream2.ml" 106 2540 2579 "src/stream2.ml" 106 2540 2583
+type(
+  int
+)
+ident(
+  int_ref curr "src/stream2.ml" 105 2511 2527 "src/stream2.ml" 105 2511 2531
+)
+"src/stream2.ml" 106 2540 2584 "src/stream2.ml" 106 2540 2585
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Core.( + ) "src/core_pervasives.mli" 212 8365 8365 "src/core_pervasives.mli" 212 8365 8411
+)
+"src/stream2.ml" 106 2540 2586 "src/stream2.ml" 106 2540 2590
+type(
+  int
+)
+ident(
+  int_ref next "src/stream2.ml" 105 2511 2532 "src/stream2.ml" 105 2511 2536
+)
+"src/stream2.ml" 106 2540 2578 "src/stream2.ml" 106 2540 2591
+type(
+  int
+)
+"src/stream2.ml" 106 2540 2569 "src/stream2.ml" 106 2540 2591
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 106 2540 2562 "src/stream2.ml" 106 2540 2592
+type(
+  int * int stream
+)
+"src/stream2.ml" 106 2540 2552 "src/stream2.ml" 106 2540 2593
+type(
+  unit -> int * int stream
+)
+"src/stream2.ml" 106 2540 2546 "src/stream2.ml" 106 2540 2593
+type(
+  int stream
+)
+"src/stream2.ml" 107 2594 2601 "src/stream2.ml" 107 2594 2604
+type(
+  int -> int -> int stream
+)
+ident(
+  int_ref aux "src/stream2.ml" 105 2511 2523 "src/stream2.ml" 105 2511 2526
+)
+"src/stream2.ml" 107 2594 2605 "src/stream2.ml" 107 2594 2606
+type(
+  int
+)
+"src/stream2.ml" 107 2594 2607 "src/stream2.ml" 107 2594 2608
+type(
+  int
+)
+"src/stream2.ml" 107 2594 2601 "src/stream2.ml" 107 2594 2608
+call(
+  tail
+)
+type(
+  int stream
+)
+"src/stream2.ml" 105 2511 2515 "src/stream2.ml" 107 2594 2608
+type(
+  int stream
+)
+type(
+  int stream
+)
+"src/stream2.ml" 110 2615 2621 "src/stream2.ml" 110 2615 2622
+type(
+  int stream
+)
+ident(
+  def s "src/stream2.ml" 111 2635 2637 "src/stream2.ml" 120 2913 2960
+)
+"src/stream2.ml" 110 2615 2625 "src/stream2.ml" 110 2615 2628
+type(
+  unit -> int stream
+)
+ident(
+  int_ref fib "src/stream2.ml" 104 2483 2489 "src/stream2.ml" 104 2483 2492
+)
+"src/stream2.ml" 110 2615 2629 "src/stream2.ml" 110 2615 2631
+type(
+  unit
+)
+"src/stream2.ml" 110 2615 2625 "src/stream2.ml" 110 2615 2631
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 111 2635 2645 "src/stream2.ml" 111 2635 2649
+type(
+  int stream -> int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 111 2635 2650 "src/stream2.ml" 111 2635 2651
+type(
+  int stream
+)
+ident(
+  int_ref s "src/stream2.ml" 110 2615 2621 "src/stream2.ml" 110 2615 2622
+)
+"src/stream2.ml" 111 2635 2645 "src/stream2.ml" 111 2635 2651
+call(
+  stack
+)
+type(
+  int
+)
+"src/stream2.ml" 111 2635 2652 "src/stream2.ml" 111 2635 2653
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 111 2635 2654 "src/stream2.ml" 111 2635 2655
+type(
+  int
+)
+"src/stream2.ml" 111 2635 2644 "src/stream2.ml" 111 2635 2656
+type(
+  bool
+)
+"src/stream2.ml" 111 2635 2637 "src/stream2.ml" 111 2635 2656
+type(
+  unit
+)
+"src/stream2.ml" 112 2658 2668 "src/stream2.ml" 112 2658 2672
+type(
+  int stream -> int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 112 2658 2674 "src/stream2.ml" 112 2658 2678
+type(
+  int stream -> int stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 112 2658 2679 "src/stream2.ml" 112 2658 2680
+type(
+  int stream
+)
+ident(
+  int_ref s "src/stream2.ml" 110 2615 2621 "src/stream2.ml" 110 2615 2622
+)
+"src/stream2.ml" 112 2658 2673 "src/stream2.ml" 112 2658 2681
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 112 2658 2668 "src/stream2.ml" 112 2658 2681
+call(
+  stack
+)
+type(
+  int
+)
+"src/stream2.ml" 112 2658 2682 "src/stream2.ml" 112 2658 2683
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 112 2658 2684 "src/stream2.ml" 112 2658 2685
+type(
+  int
+)
+"src/stream2.ml" 112 2658 2667 "src/stream2.ml" 112 2658 2686
+type(
+  bool
+)
+"src/stream2.ml" 112 2658 2660 "src/stream2.ml" 112 2658 2686
+type(
+  unit
+)
+"src/stream2.ml" 113 2688 2698 "src/stream2.ml" 113 2688 2702
+type(
+  int stream -> int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 113 2688 2704 "src/stream2.ml" 113 2688 2708
+type(
+  int stream -> int stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 113 2688 2710 "src/stream2.ml" 113 2688 2714
+type(
+  int stream -> int stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 113 2688 2715 "src/stream2.ml" 113 2688 2716
+type(
+  int stream
+)
+ident(
+  int_ref s "src/stream2.ml" 110 2615 2621 "src/stream2.ml" 110 2615 2622
+)
+"src/stream2.ml" 113 2688 2709 "src/stream2.ml" 113 2688 2717
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 113 2688 2703 "src/stream2.ml" 113 2688 2718
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 113 2688 2698 "src/stream2.ml" 113 2688 2718
+call(
+  stack
+)
+type(
+  int
+)
+"src/stream2.ml" 113 2688 2719 "src/stream2.ml" 113 2688 2720
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 113 2688 2721 "src/stream2.ml" 113 2688 2722
+type(
+  int
+)
+"src/stream2.ml" 113 2688 2697 "src/stream2.ml" 113 2688 2723
+type(
+  bool
+)
+"src/stream2.ml" 113 2688 2690 "src/stream2.ml" 113 2688 2723
+type(
+  unit
+)
+"src/stream2.ml" 114 2725 2735 "src/stream2.ml" 114 2725 2739
+type(
+  int stream -> int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 114 2725 2741 "src/stream2.ml" 114 2725 2745
+type(
+  int stream -> int stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 114 2725 2747 "src/stream2.ml" 114 2725 2751
+type(
+  int stream -> int stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 114 2725 2753 "src/stream2.ml" 114 2725 2757
+type(
+  int stream -> int stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 114 2725 2758 "src/stream2.ml" 114 2725 2759
+type(
+  int stream
+)
+ident(
+  int_ref s "src/stream2.ml" 110 2615 2621 "src/stream2.ml" 110 2615 2622
+)
+"src/stream2.ml" 114 2725 2752 "src/stream2.ml" 114 2725 2760
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 114 2725 2746 "src/stream2.ml" 114 2725 2761
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 114 2725 2740 "src/stream2.ml" 114 2725 2762
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 114 2725 2735 "src/stream2.ml" 114 2725 2762
+call(
+  stack
+)
+type(
+  int
+)
+"src/stream2.ml" 114 2725 2763 "src/stream2.ml" 114 2725 2764
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 114 2725 2765 "src/stream2.ml" 114 2725 2766
+type(
+  int
+)
+"src/stream2.ml" 114 2725 2734 "src/stream2.ml" 114 2725 2767
+type(
+  bool
+)
+"src/stream2.ml" 114 2725 2727 "src/stream2.ml" 114 2725 2767
+type(
+  unit
+)
+"src/stream2.ml" 116 2771 2777 "src/stream2.ml" 116 2771 2778
+type(
+  (int * int) stream
+)
+ident(
+  def s "src/stream2.ml" 117 2808 2810 "src/stream2.ml" 120 2913 2960
+)
+"src/stream2.ml" 116 2771 2781 "src/stream2.ml" 116 2771 2784
+type(
+  int stream -> int stream -> (int * int) stream
+)
+ident(
+  int_ref S.zip "src/stream2.ml" 11 252 254 "src/stream2.ml" 11 252 306
+)
+"src/stream2.ml" 116 2771 2786 "src/stream2.ml" 116 2771 2789
+type(
+  unit -> int stream
+)
+ident(
+  int_ref fib "src/stream2.ml" 104 2483 2489 "src/stream2.ml" 104 2483 2492
+)
+"src/stream2.ml" 116 2771 2790 "src/stream2.ml" 116 2771 2792
+type(
+  unit
+)
+"src/stream2.ml" 116 2771 2785 "src/stream2.ml" 116 2771 2793
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 116 2771 2795 "src/stream2.ml" 116 2771 2801
+type(
+  int -> int stream
+)
+ident(
+  int_ref repeat "src/stream2.ml" 61 1308 1318 "src/stream2.ml" 61 1308 1324
+)
+"src/stream2.ml" 116 2771 2802 "src/stream2.ml" 116 2771 2803
+type(
+  int
+)
+"src/stream2.ml" 116 2771 2794 "src/stream2.ml" 116 2771 2804
+call(
+  stack
+)
+type(
+  int stream
+)
+"src/stream2.ml" 116 2771 2781 "src/stream2.ml" 116 2771 2804
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 117 2808 2818 "src/stream2.ml" 117 2808 2822
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 117 2808 2823 "src/stream2.ml" 117 2808 2824
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 116 2771 2777 "src/stream2.ml" 116 2771 2778
+)
+"src/stream2.ml" 117 2808 2818 "src/stream2.ml" 117 2808 2824
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 117 2808 2825 "src/stream2.ml" 117 2808 2826
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 117 2808 2828 "src/stream2.ml" 117 2808 2829
+type(
+  int
+)
+"src/stream2.ml" 117 2808 2831 "src/stream2.ml" 117 2808 2832
+type(
+  int
+)
+"src/stream2.ml" 117 2808 2827 "src/stream2.ml" 117 2808 2833
+type(
+  int * int
+)
+"src/stream2.ml" 117 2808 2817 "src/stream2.ml" 117 2808 2834
+type(
+  bool
+)
+"src/stream2.ml" 117 2808 2810 "src/stream2.ml" 117 2808 2834
+type(
+  unit
+)
+"src/stream2.ml" 118 2836 2846 "src/stream2.ml" 118 2836 2850
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 118 2836 2852 "src/stream2.ml" 118 2836 2856
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 118 2836 2857 "src/stream2.ml" 118 2836 2858
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 116 2771 2777 "src/stream2.ml" 116 2771 2778
+)
+"src/stream2.ml" 118 2836 2851 "src/stream2.ml" 118 2836 2859
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 118 2836 2846 "src/stream2.ml" 118 2836 2859
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 118 2836 2860 "src/stream2.ml" 118 2836 2861
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 118 2836 2863 "src/stream2.ml" 118 2836 2864
+type(
+  int
+)
+"src/stream2.ml" 118 2836 2866 "src/stream2.ml" 118 2836 2867
+type(
+  int
+)
+"src/stream2.ml" 118 2836 2862 "src/stream2.ml" 118 2836 2868
+type(
+  int * int
+)
+"src/stream2.ml" 118 2836 2845 "src/stream2.ml" 118 2836 2869
+type(
+  bool
+)
+"src/stream2.ml" 118 2836 2838 "src/stream2.ml" 118 2836 2869
+type(
+  unit
+)
+"src/stream2.ml" 119 2871 2881 "src/stream2.ml" 119 2871 2885
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 119 2871 2887 "src/stream2.ml" 119 2871 2891
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 119 2871 2893 "src/stream2.ml" 119 2871 2897
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 119 2871 2898 "src/stream2.ml" 119 2871 2899
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 116 2771 2777 "src/stream2.ml" 116 2771 2778
+)
+"src/stream2.ml" 119 2871 2892 "src/stream2.ml" 119 2871 2900
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 119 2871 2886 "src/stream2.ml" 119 2871 2901
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 119 2871 2881 "src/stream2.ml" 119 2871 2901
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 119 2871 2902 "src/stream2.ml" 119 2871 2903
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 119 2871 2905 "src/stream2.ml" 119 2871 2906
+type(
+  int
+)
+"src/stream2.ml" 119 2871 2908 "src/stream2.ml" 119 2871 2909
+type(
+  int
+)
+"src/stream2.ml" 119 2871 2904 "src/stream2.ml" 119 2871 2910
+type(
+  int * int
+)
+"src/stream2.ml" 119 2871 2880 "src/stream2.ml" 119 2871 2911
+type(
+  bool
+)
+"src/stream2.ml" 119 2871 2873 "src/stream2.ml" 119 2871 2911
+type(
+  unit
+)
+"src/stream2.ml" 120 2913 2923 "src/stream2.ml" 120 2913 2927
+type(
+  (int * int) stream -> int * int
+)
+ident(
+  int_ref S.head "src/stream2.ml" 8 134 136 "src/stream2.ml" 8 134 162
+)
+"src/stream2.ml" 120 2913 2929 "src/stream2.ml" 120 2913 2933
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 120 2913 2935 "src/stream2.ml" 120 2913 2939
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 120 2913 2941 "src/stream2.ml" 120 2913 2945
+type(
+  (int * int) stream -> (int * int) stream
+)
+ident(
+  int_ref S.tail "src/stream2.ml" 9 163 165 "src/stream2.ml" 9 163 198
+)
+"src/stream2.ml" 120 2913 2946 "src/stream2.ml" 120 2913 2947
+type(
+  (int * int) stream
+)
+ident(
+  int_ref s "src/stream2.ml" 116 2771 2777 "src/stream2.ml" 116 2771 2778
+)
+"src/stream2.ml" 120 2913 2940 "src/stream2.ml" 120 2913 2948
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 120 2913 2934 "src/stream2.ml" 120 2913 2949
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 120 2913 2928 "src/stream2.ml" 120 2913 2950
+call(
+  stack
+)
+type(
+  (int * int) stream
+)
+"src/stream2.ml" 120 2913 2923 "src/stream2.ml" 120 2913 2950
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/stream2.ml" 120 2913 2951 "src/stream2.ml" 120 2913 2952
+type(
+  int * int -> int * int -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/stream2.ml" 120 2913 2954 "src/stream2.ml" 120 2913 2955
+type(
+  int
+)
+"src/stream2.ml" 120 2913 2956 "src/stream2.ml" 120 2913 2957
+type(
+  int
+)
+"src/stream2.ml" 120 2913 2953 "src/stream2.ml" 120 2913 2958
+type(
+  int * int
+)
+"src/stream2.ml" 120 2913 2922 "src/stream2.ml" 120 2913 2959
+type(
+  bool
+)
+"src/stream2.ml" 120 2913 2915 "src/stream2.ml" 120 2913 2959
+type(
+  unit
+)
+"src/stream2.ml" 119 2871 2873 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 118 2836 2838 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 117 2808 2810 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 116 2771 2773 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 114 2725 2727 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 113 2688 2690 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 112 2658 2660 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 111 2635 2637 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 110 2615 2617 "src/stream2.ml" 120 2913 2960
+type(
+  unit
+)
+"src/stream2.ml" 124 2967 2990 "src/stream2.ml" 124 2967 3011
+call(
+  stack
+)

@@ -44,16 +44,16 @@ module Expr = struct
     | Var x' -> if x' = x then e' else e
     | Binop (b, t1, t2) -> Binop(b, substitute x e' t1, substitute x e' t2)
     | Lam (x', tau, body) 
-        -> if x' = x then Lam(x', tau, body) else Lam(x', tau, substitute x e' body)
+      -> if x' = x then Lam(x', tau, body) else Lam(x', tau, substitute x e' body)
     | App (t1, t2) -> App (substitute x e' t1, substitute x e' t2)
     | Pair (e1, e2) -> Pair (substitute x e' e1, substitute x e' e2)
     | Project (e, d) -> Project (substitute x e' e, d)
     | Inject (e, d, tau) -> Inject (substitute x e' e, d, tau)
     | Case (e, (x1, e1), (x2, e2))
-        -> if x1 = x && x2 = x then Case (e, (x1, e1), (x2, e2))
-           else if x1 = x then Case (e, (x1, e1), (x2, substitute x e' e2))
-           else if x2 = x then Case (e, (x1, substitute x e' e1), (x2, e2))
-           else Case (e, (x1, substitute x e' e1), (x2, substitute x e' e2))
+      -> if x1 = x && x2 = x then Case (e, (x1, e1), (x2, e2))
+      else if x1 = x then Case (e, (x1, e1), (x2, substitute x e' e2))
+      else if x2 = x then Case (e, (x1, substitute x e' e1), (x2, e2))
+      else Case (e, (x1, substitute x e' e1), (x2, substitute x e' e2))
 
   let inline_tests () =
     let t1 = App(Lam("x", Type.Int, Var "x"), Var "y") in

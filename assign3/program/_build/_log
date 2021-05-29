@@ -1,0 +1,10 @@
+### Starting build.
+# Target: src/list2.ml.depends, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, debug, extension:ml, file:src/list2.ml, ocaml, ocamldep, quiet, short_paths, thread, traverse }
+ocamlfind ocamldep -package core -ppx 'ppx-jane -as-ppx' -modules src/list2.ml > src/list2.ml.depends # cached
+# Target: src/list2.cmo, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/list2.cmo, file:src/list2.ml, implem, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/list2.cmo src/list2.ml # cached
+# Target: src/list2.cmx, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/list2.cmx, file:src/list2.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/list2.cmx src/list2.ml # cached
+# Target: src/list2.native, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, debug, dont_link_with, extension:native, file:src/list2.native, link, native, ocaml, program, quiet, short_paths, thread, traverse }
+ocamlfind ocamlopt -linkpkg -g -thread -package core -I src src/list2.cmx -o src/list2.native # cached
+# Compilation successful.

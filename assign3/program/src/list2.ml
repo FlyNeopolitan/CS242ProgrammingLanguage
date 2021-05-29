@@ -17,22 +17,47 @@ module MyList : List2 = struct
   type 'a list = Cons of 'a * 'a list | Nil
 
   let rec foldr f base l =
-    raise Unimplemented
+    (match l with
+     | Nil -> base
+     | Cons(x, xs) -> f x (foldr f base xs))
 
   let to_string f l =
-    raise Unimplemented
+    foldr (fun x -> fun xs -> (f x) ^ " " ^ xs) "" l
 
   let map f l =
-    raise Unimplemented
+    foldr (fun a -> fun b -> Cons(f a, b)) Nil l
 
   let rec filter f l =
-    raise Unimplemented
+    (match l with 
+     | Nil -> Nil
+     | Cons(x, xs) -> 
+       let tail = filter f xs
+       in if f x then Cons(x, tail) else tail)
 
   let reduce f l =
-    raise Unimplemented
+    (match l with 
+     | Nil -> None
+     | _ -> 
+       let helper x xs = 
+         (match xs with
+          | Nil -> Cons(x, Nil)
+          | Cons(a, Nil) -> Cons(f x a, Nil))
+       in let Cons(res, Nil) = foldr helper Nil l
+       in Some(res))
+
 
   let combine_keys l =
-    raise Unimplemented
+    let helper x xs = 
+      let (k, v) = x in 
+      let search k y = 
+        foldr (fun x-> fun c-> 
+            let (head, _) = x in if head = k then true else c) false y
+      in if not(search k xs) then Cons((k, Cons(v, Nil)), xs)
+      else let merge a b = 
+             let (h, keys) = a 
+             in if h = k then Cons((k, Cons(v, keys)), b) else Cons(a, b)
+        in foldr merge Nil xs
+    in foldr helper Nil l
 end
 
 module ListTests(L : List2) = struct
