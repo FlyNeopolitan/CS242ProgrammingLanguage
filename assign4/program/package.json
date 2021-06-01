@@ -5,12 +5,12 @@
     "format": "prettier --write src/**/*.js"
   },
   "devDependencies": {
+    "buffer-loader": "^0.1.0",
     "html-webpack-plugin": "^3.2.0",
     "prettier": "^1.14.3",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.4",
-    "buffer-loader": "^0.1.0"
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "chai": "^4.2.0",
