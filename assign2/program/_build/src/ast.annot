@@ -1,0 +1,11166 @@
+"src/ast.ml" 7 68 74 "src/ast.ml" 7 68 77
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 7 68 72 "src/ast.ml" 7 68 77
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+"src/ast.ml" 8 78 84 "src/ast.ml" 8 78 86
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 8 78 90 "src/ast.ml" 8 78 91
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 8 78 90 "src/ast.ml" 8 78 91
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 8 78 90 "src/ast.ml" 8 78 91
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 8 78 94 "src/ast.ml" 8 78 95
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t
+)
+ident(
+  int_ref _b__006_ "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  t
+)
+ident(
+  int_ref _a__005_ "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  t
+)
+ident(
+  int_ref _b__004_ "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  t
+)
+ident(
+  int_ref _a__003_ "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _b__006_ "src/ast.ml" 8 78 90 "src/ast.ml" 8 78 91
+)
+type(
+  t
+)
+ident(
+  def _b__004_ "src/ast.ml" 8 78 90 "src/ast.ml" 8 78 91
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _a__005_ "src/ast.ml" 8 78 90 "src/ast.ml" 8 78 91
+)
+type(
+  t
+)
+ident(
+  def _a__003_ "src/ast.ml" 8 78 90 "src/ast.ml" 8 78 91
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 8 78 82 "src/ast.ml" 8 78 95
+)
+"src/ast.ml" 9 96 102 "src/ast.ml" 9 96 109
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 9 96 113 "src/ast.ml" 9 96 114
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 9 96 113 "src/ast.ml" 9 96 114
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 9 96 113 "src/ast.ml" 9 96 114
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 9 96 117 "src/ast.ml" 9 96 118
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t
+)
+ident(
+  int_ref _b__010_ "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  t
+)
+ident(
+  int_ref _a__009_ "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  t
+)
+ident(
+  int_ref _b__008_ "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  t
+)
+ident(
+  int_ref _a__007_ "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _b__010_ "src/ast.ml" 9 96 113 "src/ast.ml" 9 96 114
+)
+type(
+  t
+)
+ident(
+  def _b__008_ "src/ast.ml" 9 96 113 "src/ast.ml" 9 96 114
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _a__009_ "src/ast.ml" 9 96 113 "src/ast.ml" 9 96 114
+)
+type(
+  t
+)
+ident(
+  def _a__007_ "src/ast.ml" 9 96 113 "src/ast.ml" 9 96 114
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 9 96 100 "src/ast.ml" 9 96 118
+)
+"src/ast.ml" 10 119 125 "src/ast.ml" 10 119 128
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 10 119 132 "src/ast.ml" 10 119 133
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 10 119 132 "src/ast.ml" 10 119 133
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 10 119 132 "src/ast.ml" 10 119 133
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 10 119 136 "src/ast.ml" 10 119 137
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  t
+)
+ident(
+  int_ref _b__014_ "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  t
+)
+ident(
+  int_ref _a__013_ "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  t
+)
+ident(
+  int_ref _b__012_ "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  t
+)
+ident(
+  int_ref _a__011_ "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _b__014_ "src/ast.ml" 10 119 132 "src/ast.ml" 10 119 133
+)
+type(
+  t
+)
+ident(
+  def _b__012_ "src/ast.ml" 10 119 132 "src/ast.ml" 10 119 133
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _a__013_ "src/ast.ml" 10 119 132 "src/ast.ml" 10 119 133
+)
+type(
+  t
+)
+ident(
+  def _a__011_ "src/ast.ml" 10 119 132 "src/ast.ml" 10 119 133
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 10 119 123 "src/ast.ml" 10 119 137
+)
+"src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+type(
+  t -> int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t * t
+)
+type(
+  t
+)
+ident(
+  int_ref b__002_ "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  int_ref a__001_ "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  t
+)
+ident(
+  int_ref b__002_ "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  int_ref a__001_ "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref Ppx_compare_lib.phys_equal "src/ppx_compare_lib.mli" 4 113 113 "src/ppx_compare_lib.mli" 4 113 146
+)
+type(
+  t
+)
+ident(
+  def b__002_ "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  def a__001_ "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/ast.ml" 6 57 59 "src/ast.ml" 14 232 235
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  def sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 14 232 235
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.unexpected_stag "sexp_conv_error.ml" 36 962 966 "sexp_conv_error.ml" 36 962 981
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.empty_list_invalid_sum "sexp_conv_error.ml" 33 849 853 "sexp_conv_error.ml" 33 849 875
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.nested_list_invalid_sum "sexp_conv_error.ml" 30 736 740 "sexp_conv_error.ml" 30 736 763
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_no_args "sexp_conv_error.ml" 18 363 367 "sexp_conv_error.ml" 18 363 379
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def _tp_loc "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  def t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 14 232 235
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  def sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 14 232 235
+)
+type(
+  t -> unit
+)
+type(
+  unit
+)
+type(
+  t
+)
+type(
+  t -> unit
+)
+"src/ast.ml" 13 177 183 "src/ast.ml" 13 177 192
+type(
+  t -> string
+)
+ident(
+  def to_string "src/ast.ml" 13 177 231 "src/ast.ml" 14 232 235
+)
+"src/ast.ml" 13 177 193 "src/ast.ml" 13 177 195
+type(
+  t
+)
+ident(
+  def ty "src/ast.ml" 13 177 198 "src/ast.ml" 13 177 231
+)
+"src/ast.ml" 13 177 198 "src/ast.ml" 13 177 216
+type(
+  ?indent:int -> Sexp.t -> string
+)
+ident(
+  int_ref Core.Sexp.to_string_hum "src/sexp_intf.ml" 528 20573 20575 "src/sexp_intf.ml" 528 20573 20623
+)
+"src/ast.ml" 13 177 218 "src/ast.ml" 13 177 227
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 13 177 228 "src/ast.ml" 13 177 230
+type(
+  t
+)
+ident(
+  int_ref ty "src/ast.ml" 13 177 193 "src/ast.ml" 13 177 195
+)
+"src/ast.ml" 13 177 217 "src/ast.ml" 13 177 231
+call(
+  stack
+)
+type(
+  Sexp.t
+)
+"src/ast.ml" 13 177 198 "src/ast.ml" 13 177 231
+call(
+  tail
+)
+type(
+  string
+)
+"src/ast.ml" 17 258 273 "src/ast.ml" 17 258 276
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+"src/ast.ml" 17 258 279 "src/ast.ml" 17 258 282
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 17 258 277 "src/ast.ml" 17 258 282
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+"src/ast.ml" 17 258 285 "src/ast.ml" 17 258 288
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 17 258 283 "src/ast.ml" 17 258 288
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+"src/ast.ml" 17 258 291 "src/ast.ml" 17 258 294
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 17 258 289 "src/ast.ml" 17 258 294
+type(
+  int
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+"src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  binop -> binop -> int
+)
+ident(
+  int_ref compare_binop "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop -> binop -> int
+)
+type(
+  binop -> binop -> int
+)
+type(
+  binop -> binop -> int
+)
+type(
+  binop -> int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  binop * binop
+)
+type(
+  binop
+)
+ident(
+  int_ref b__016_ "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop
+)
+ident(
+  int_ref a__015_ "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  binop
+)
+ident(
+  int_ref b__016_ "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop
+)
+ident(
+  int_ref a__015_ "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop -> binop -> bool
+)
+ident(
+  int_ref Ppx_compare_lib.phys_equal "src/ppx_compare_lib.mli" 4 113 113 "src/ppx_compare_lib.mli" 4 113 146
+)
+type(
+  binop
+)
+ident(
+  def b__016_ "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop
+)
+ident(
+  def a__015_ "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop -> binop -> int
+)
+ident(
+  def compare_binop "src/ast.ml" 17 258 260 "src/ast.ml" 75 2551 2554
+)
+type(
+  binop -> Sexp.t
+)
+ident(
+  int_ref sexp_of_binop "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop -> Sexp.t
+)
+type(
+  binop -> Sexp.t
+)
+type(
+  binop -> Sexp.t
+)
+type(
+  binop -> Sexp.t
+)
+ident(
+  def sexp_of_binop "src/ast.ml" 17 258 260 "src/ast.ml" 75 2551 2554
+)
+type(
+  Sexp.t -> binop
+)
+ident(
+  int_ref binop_of_sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t -> binop
+)
+type(
+  Sexp.t -> binop
+)
+type(
+  Sexp.t -> binop
+)
+type(
+  Sexp.t -> binop
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string -> Sexp.t -> binop
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.unexpected_stag "sexp_conv_error.ml" 36 962 966 "sexp_conv_error.ml" 36 962 981
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string -> Sexp.t -> binop
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.empty_list_invalid_sum "sexp_conv_error.ml" 33 849 853 "sexp_conv_error.ml" 33 849 875
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string -> Sexp.t -> binop
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.nested_list_invalid_sum "sexp_conv_error.ml" 30 736 740 "sexp_conv_error.ml" 30 736 763
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string -> Sexp.t -> binop
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_no_args "sexp_conv_error.ml" 18 363 367 "sexp_conv_error.ml" 18 363 379
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string -> Sexp.t -> binop
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_no_args "sexp_conv_error.ml" 18 363 367 "sexp_conv_error.ml" 18 363 379
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string -> Sexp.t -> binop
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_no_args "sexp_conv_error.ml" 18 363 367 "sexp_conv_error.ml" 18 363 379
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  string -> Sexp.t -> binop
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_no_args "sexp_conv_error.ml" 18 363 367 "sexp_conv_error.ml" 18 363 379
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def _tp_loc "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t -> binop
+)
+ident(
+  def binop_of_sexp "src/ast.ml" 17 258 260 "src/ast.ml" 75 2551 2554
+)
+type(
+  binop -> Sexp.t
+)
+ident(
+  int_ref sexp_of_binop "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop -> Sexp.t
+)
+type(
+  binop -> Sexp.t
+)
+type(
+  binop -> Sexp.t
+)
+type(
+  binop -> Sexp.t
+)
+ident(
+  def sexp_of_binop "src/ast.ml" 17 258 260 "src/ast.ml" 75 2551 2554
+)
+type(
+  binop -> unit
+)
+type(
+  unit
+)
+type(
+  binop
+)
+type(
+  binop -> unit
+)
+"src/ast.ml" 20 334 353 "src/ast.ml" 20 334 357
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  direction * direction
+)
+type(
+  direction
+)
+type(
+  direction
+)
+type(
+  direction * direction
+)
+type(
+  direction
+)
+type(
+  direction
+)
+type(
+  direction * direction
+)
+type(
+  direction
+)
+type(
+  direction
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  direction
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  direction
+)
+"src/ast.ml" 20 334 360 "src/ast.ml" 20 334 365
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 20 334 358 "src/ast.ml" 20 334 365
+type(
+  int
+)
+type(
+  direction * direction
+)
+type(
+  direction
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+type(
+  direction
+)
+"src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  direction -> direction -> int
+)
+ident(
+  int_ref compare_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> direction -> int
+)
+type(
+  direction -> direction -> int
+)
+type(
+  direction -> direction -> int
+)
+type(
+  direction -> int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  direction * direction
+)
+type(
+  direction
+)
+ident(
+  int_ref b__018_ "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction
+)
+ident(
+  int_ref a__017_ "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  direction
+)
+ident(
+  int_ref b__018_ "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction
+)
+ident(
+  int_ref a__017_ "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> direction -> bool
+)
+ident(
+  int_ref Ppx_compare_lib.phys_equal "src/ppx_compare_lib.mli" 4 113 113 "src/ppx_compare_lib.mli" 4 113 146
+)
+type(
+  direction
+)
+ident(
+  def b__018_ "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction
+)
+ident(
+  def a__017_ "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> direction -> int
+)
+ident(
+  def compare_direction "src/ast.ml" 20 334 336 "src/ast.ml" 75 2551 2554
+)
+type(
+  direction -> Sexp.t
+)
+ident(
+  int_ref sexp_of_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> Sexp.t
+)
+type(
+  direction -> Sexp.t
+)
+type(
+  direction -> Sexp.t
+)
+type(
+  direction -> Sexp.t
+)
+ident(
+  def sexp_of_direction "src/ast.ml" 20 334 336 "src/ast.ml" 75 2551 2554
+)
+type(
+  Sexp.t -> direction
+)
+ident(
+  int_ref direction_of_sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t -> direction
+)
+type(
+  Sexp.t -> direction
+)
+type(
+  Sexp.t -> direction
+)
+type(
+  Sexp.t -> direction
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string -> Sexp.t -> direction
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.unexpected_stag "sexp_conv_error.ml" 36 962 966 "sexp_conv_error.ml" 36 962 981
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string -> Sexp.t -> direction
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.empty_list_invalid_sum "sexp_conv_error.ml" 33 849 853 "sexp_conv_error.ml" 33 849 875
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string -> Sexp.t -> direction
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.nested_list_invalid_sum "sexp_conv_error.ml" 30 736 740 "sexp_conv_error.ml" 30 736 763
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string -> Sexp.t -> direction
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_no_args "sexp_conv_error.ml" 18 363 367 "sexp_conv_error.ml" 18 363 379
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  string -> Sexp.t -> direction
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_no_args "sexp_conv_error.ml" 18 363 367 "sexp_conv_error.ml" 18 363 379
+)
+type(
+  direction
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def _tp_loc "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t -> direction
+)
+ident(
+  def direction_of_sexp "src/ast.ml" 20 334 336 "src/ast.ml" 75 2551 2554
+)
+type(
+  direction -> Sexp.t
+)
+ident(
+  int_ref sexp_of_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> Sexp.t
+)
+type(
+  direction -> Sexp.t
+)
+type(
+  direction -> Sexp.t
+)
+type(
+  direction -> Sexp.t
+)
+ident(
+  def sexp_of_direction "src/ast.ml" 20 334 336 "src/ast.ml" 75 2551 2554
+)
+type(
+  direction -> unit
+)
+type(
+  unit
+)
+type(
+  direction
+)
+type(
+  direction -> unit
+)
+"src/ast.ml" 24 416 422 "src/ast.ml" 24 416 425
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 24 416 429 "src/ast.ml" 24 416 435
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  string -> string -> int
+)
+ident(
+  int_ref Core.compare_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  Sexp.t -> string
+)
+ident(
+  int_ref Core.string_of_sexp "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+"src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  string
+)
+ident(
+  int_ref _b__022_ "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  string
+)
+ident(
+  int_ref _a__021_ "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  string
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  string
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  def _b__022_ "src/ast.ml" 24 416 429 "src/ast.ml" 24 416 435
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  def _a__021_ "src/ast.ml" 24 416 429 "src/ast.ml" 24 416 435
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 24 416 420 "src/ast.ml" 24 416 435
+)
+"src/ast.ml" 25 436 442 "src/ast.ml" 25 436 445
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 25 436 449 "src/ast.ml" 25 436 452
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Core.compare_int "src/std_internal.ml" 127 5066 5077 "src/std_internal.ml" 127 5066 5141
+)
+type(
+  int -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_int "src/std_internal.ml" 127 5066 5077 "src/std_internal.ml" 127 5066 5141
+)
+type(
+  Sexp.t -> int
+)
+ident(
+  int_ref Core.int_of_sexp "src/std_internal.ml" 127 5066 5077 "src/std_internal.ml" 127 5066 5141
+)
+type(
+  int -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_int "src/std_internal.ml" 127 5066 5077 "src/std_internal.ml" 127 5066 5141
+)
+"src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref _b__024_ "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  int
+)
+ident(
+  int_ref _a__023_ "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  int
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  int
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  int
+)
+ident(
+  def _b__024_ "src/ast.ml" 25 436 449 "src/ast.ml" 25 436 452
+)
+type(
+  t
+)
+type(
+  int
+)
+ident(
+  def _a__023_ "src/ast.ml" 25 436 449 "src/ast.ml" 25 436 452
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  int
+)
+ident(
+  int_ref v0 "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  t
+)
+type(
+  int
+)
+ident(
+  def v0 "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  int
+)
+ident(
+  int_ref v0 "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+type(
+  t
+)
+type(
+  int
+)
+ident(
+  def v0 "src/ast.ml" 25 436 440 "src/ast.ml" 25 436 452
+)
+"src/ast.ml" 26 453 459 "src/ast.ml" 26 453 464
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  binop -> binop -> int
+)
+ident(
+  int_ref compare_binop "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop -> Sexp.t
+)
+ident(
+  int_ref sexp_of_binop "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  Sexp.t -> binop
+)
+ident(
+  int_ref binop_of_sexp "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+type(
+  binop -> Sexp.t
+)
+ident(
+  int_ref sexp_of_binop "src/ast.ml" 17 258 260 "src/ast.ml" 18 295 332
+)
+"src/ast.ml" 26 453 476 "src/ast.ml" 26 453 477
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 26 453 476 "src/ast.ml" 26 453 477
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 26 453 476 "src/ast.ml" 26 453 477
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 26 453 480 "src/ast.ml" 26 453 481
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t
+)
+ident(
+  int_ref _b__030_ "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  t
+)
+ident(
+  int_ref _a__029_ "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  t
+)
+ident(
+  int_ref _b__028_ "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  t
+)
+ident(
+  int_ref _a__027_ "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  binop
+)
+ident(
+  int_ref _b__026_ "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  binop
+)
+ident(
+  int_ref _a__025_ "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  binop
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  binop
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _b__030_ "src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+)
+type(
+  t
+)
+ident(
+  def _b__028_ "src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+)
+type(
+  binop
+)
+ident(
+  def _b__026_ "src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _a__029_ "src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+)
+type(
+  t
+)
+ident(
+  def _a__027_ "src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+)
+type(
+  binop
+)
+ident(
+  def _a__025_ "src/ast.ml" 26 453 468 "src/ast.ml" 26 453 473
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v2 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+ident(
+  int_ref v0 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v2 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  binop
+)
+ident(
+  def v0 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v2 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+type(
+  binop
+)
+ident(
+  int_ref v0 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v2 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+type(
+  binop
+)
+ident(
+  def v0 "src/ast.ml" 26 453 457 "src/ast.ml" 26 453 481
+)
+"src/ast.ml" 27 482 488 "src/ast.ml" 27 482 491
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  string -> string -> int
+)
+ident(
+  int_ref Core.compare_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  Sexp.t -> string
+)
+ident(
+  int_ref Core.string_of_sexp "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+"src/ast.ml" 27 482 504 "src/ast.ml" 27 482 510
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 27 482 504 "src/ast.ml" 27 482 510
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 27 482 504 "src/ast.ml" 27 482 510
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  Type.t -> Type.t -> int
+)
+ident(
+  int_ref Type.compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Type.t -> Sexp.t
+)
+ident(
+  int_ref Type.sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> Type.t
+)
+ident(
+  int_ref Type.t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Type.t -> Sexp.t
+)
+ident(
+  int_ref Type.sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 27 482 513 "src/ast.ml" 27 482 514
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t
+)
+ident(
+  int_ref _b__036_ "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  t
+)
+ident(
+  int_ref _a__035_ "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Type.t
+)
+ident(
+  int_ref _b__034_ "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Type.t
+)
+ident(
+  int_ref _a__033_ "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  string
+)
+ident(
+  int_ref _b__032_ "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  string
+)
+ident(
+  int_ref _a__031_ "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+type(
+  string
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+type(
+  string
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _b__036_ "src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+)
+type(
+  Type.t
+)
+ident(
+  def _b__034_ "src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+)
+type(
+  string
+)
+ident(
+  def _b__032_ "src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _a__035_ "src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+)
+type(
+  Type.t
+)
+ident(
+  def _a__033_ "src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+)
+type(
+  string
+)
+ident(
+  def _a__031_ "src/ast.ml" 27 482 495 "src/ast.ml" 27 482 501
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v2 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+type(
+  Type.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v2 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Type.t
+)
+ident(
+  def v1 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v2 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+type(
+  Type.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v2 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  Type.t
+)
+ident(
+  def v1 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 27 482 486 "src/ast.ml" 27 482 514
+)
+"src/ast.ml" 28 515 521 "src/ast.ml" 28 515 524
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 28 515 528 "src/ast.ml" 28 515 529
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 28 515 528 "src/ast.ml" 28 515 529
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 28 515 528 "src/ast.ml" 28 515 529
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 28 515 532 "src/ast.ml" 28 515 533
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t
+)
+ident(
+  int_ref _b__040_ "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  t
+)
+ident(
+  int_ref _a__039_ "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  t
+)
+ident(
+  int_ref _b__038_ "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  t
+)
+ident(
+  int_ref _a__037_ "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _b__040_ "src/ast.ml" 28 515 528 "src/ast.ml" 28 515 529
+)
+type(
+  t
+)
+ident(
+  def _b__038_ "src/ast.ml" 28 515 528 "src/ast.ml" 28 515 529
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _a__039_ "src/ast.ml" 28 515 528 "src/ast.ml" 28 515 529
+)
+type(
+  t
+)
+ident(
+  def _a__037_ "src/ast.ml" 28 515 528 "src/ast.ml" 28 515 529
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 28 515 519 "src/ast.ml" 28 515 533
+)
+"src/ast.ml" 29 534 540 "src/ast.ml" 29 534 544
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 29 534 548 "src/ast.ml" 29 534 549
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 29 534 548 "src/ast.ml" 29 534 549
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 29 534 548 "src/ast.ml" 29 534 549
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 29 534 552 "src/ast.ml" 29 534 553
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t
+)
+ident(
+  int_ref _b__044_ "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  t
+)
+ident(
+  int_ref _a__043_ "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  t
+)
+ident(
+  int_ref _b__042_ "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  t
+)
+ident(
+  int_ref _a__041_ "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _b__044_ "src/ast.ml" 29 534 548 "src/ast.ml" 29 534 549
+)
+type(
+  t
+)
+ident(
+  def _b__042_ "src/ast.ml" 29 534 548 "src/ast.ml" 29 534 549
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def _a__043_ "src/ast.ml" 29 534 548 "src/ast.ml" 29 534 549
+)
+type(
+  t
+)
+ident(
+  def _a__041_ "src/ast.ml" 29 534 548 "src/ast.ml" 29 534 549
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 29 534 538 "src/ast.ml" 29 534 553
+)
+"src/ast.ml" 30 554 560 "src/ast.ml" 30 554 567
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 30 554 571 "src/ast.ml" 30 554 572
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 30 554 571 "src/ast.ml" 30 554 572
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 30 554 571 "src/ast.ml" 30 554 572
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 30 554 575 "src/ast.ml" 30 554 584
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  direction -> direction -> int
+)
+ident(
+  int_ref compare_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> Sexp.t
+)
+ident(
+  int_ref sexp_of_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t -> direction
+)
+ident(
+  int_ref direction_of_sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> Sexp.t
+)
+ident(
+  int_ref sexp_of_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+"src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  direction
+)
+ident(
+  int_ref _b__048_ "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  direction
+)
+ident(
+  int_ref _a__047_ "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  t
+)
+ident(
+  int_ref _b__046_ "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  t
+)
+ident(
+  int_ref _a__045_ "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  direction
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  direction
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  direction
+)
+ident(
+  def _b__048_ "src/ast.ml" 30 554 571 "src/ast.ml" 30 554 572
+)
+type(
+  t
+)
+ident(
+  def _b__046_ "src/ast.ml" 30 554 571 "src/ast.ml" 30 554 572
+)
+type(
+  t
+)
+type(
+  direction
+)
+ident(
+  def _a__047_ "src/ast.ml" 30 554 571 "src/ast.ml" 30 554 572
+)
+type(
+  t
+)
+ident(
+  def _a__045_ "src/ast.ml" 30 554 571 "src/ast.ml" 30 554 572
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  direction
+)
+ident(
+  int_ref v1 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  t
+)
+type(
+  direction
+)
+ident(
+  def v1 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  direction
+)
+ident(
+  int_ref v1 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  t
+)
+type(
+  direction
+)
+ident(
+  def v1 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 30 554 558 "src/ast.ml" 30 554 584
+)
+"src/ast.ml" 31 585 591 "src/ast.ml" 31 585 597
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 31 585 605 "src/ast.ml" 31 585 614
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 31 585 605 "src/ast.ml" 31 585 614
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 31 585 605 "src/ast.ml" 31 585 614
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  direction -> direction -> int
+)
+ident(
+  int_ref compare_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> Sexp.t
+)
+ident(
+  int_ref sexp_of_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  Sexp.t -> direction
+)
+ident(
+  int_ref direction_of_sexp "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+type(
+  direction -> Sexp.t
+)
+ident(
+  int_ref sexp_of_direction "src/ast.ml" 20 334 336 "src/ast.ml" 21 366 403
+)
+"src/ast.ml" 31 585 617 "src/ast.ml" 31 585 623
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  Type.t -> Type.t -> int
+)
+ident(
+  int_ref Type.compare "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Type.t -> Sexp.t
+)
+ident(
+  int_ref Type.sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Sexp.t -> Type.t
+)
+ident(
+  int_ref Type.t_of_sexp "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+type(
+  Type.t -> Sexp.t
+)
+ident(
+  int_ref Type.sexp_of_t "src/ast.ml" 6 57 59 "src/ast.ml" 11 138 175
+)
+"src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  Type.t
+)
+ident(
+  int_ref _b__054_ "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Type.t
+)
+ident(
+  int_ref _a__053_ "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  direction
+)
+ident(
+  int_ref _b__052_ "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  direction
+)
+ident(
+  int_ref _a__051_ "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  t
+)
+ident(
+  int_ref _b__050_ "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  t
+)
+ident(
+  int_ref _a__049_ "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+type(
+  direction
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+type(
+  direction
+)
+type(
+  t
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+ident(
+  def _b__054_ "src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+)
+type(
+  direction
+)
+ident(
+  def _b__052_ "src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+)
+type(
+  t
+)
+ident(
+  def _b__050_ "src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+ident(
+  def _a__053_ "src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+)
+type(
+  direction
+)
+ident(
+  def _a__051_ "src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+)
+type(
+  t
+)
+ident(
+  def _a__049_ "src/ast.ml" 31 585 601 "src/ast.ml" 31 585 602
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Type.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+type(
+  direction
+)
+ident(
+  int_ref v1 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+ident(
+  def v2 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  direction
+)
+ident(
+  def v1 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  Type.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+type(
+  direction
+)
+ident(
+  int_ref v1 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+ident(
+  def v2 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  direction
+)
+ident(
+  def v1 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 31 585 589 "src/ast.ml" 31 585 623
+)
+"src/ast.ml" 32 624 630 "src/ast.ml" 32 624 634
+type(
+  string
+)
+type(
+  string
+)
+"src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 32 624 643 "src/ast.ml" 32 624 649
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 649
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 649
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  string -> string -> int
+)
+ident(
+  int_ref Core.compare_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  Sexp.t -> string
+)
+ident(
+  int_ref Core.string_of_sexp "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+"src/ast.ml" 32 624 652 "src/ast.ml" 32 624 653
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t
+)
+ident(
+  int_ref t__064_ "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  t
+)
+ident(
+  int_ref t__062_ "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string
+)
+ident(
+  int_ref t__063_ "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string
+)
+ident(
+  int_ref t__061_ "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  def t__064_ "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 649
+)
+type(
+  string
+)
+ident(
+  def t__063_ "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 649
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  def t__062_ "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string
+)
+ident(
+  def t__061_ "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string * t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  int
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> int -> Sexp.t -> string * t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.tuple_of_size_n_expected "sexp_conv_error.ml" 12 207 211 "sexp_conv_error.ml" 12 207 235
+)
+type(
+  string * t
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 32 624 643 "src/ast.ml" 32 624 653
+)
+"src/ast.ml" 32 624 658 "src/ast.ml" 32 624 664
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 664
+)
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 664
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  string -> string -> int
+)
+ident(
+  int_ref Core.compare_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  Sexp.t -> string
+)
+ident(
+  int_ref Core.string_of_sexp "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+type(
+  string -> Sexp.t
+)
+ident(
+  int_ref Core.sexp_of_string "src/std_internal.ml" 134 5598 5609 "src/std_internal.ml" 134 5598 5673
+)
+"src/ast.ml" 32 624 667 "src/ast.ml" 32 624 668
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t
+)
+ident(
+  int_ref t__068_ "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  t
+)
+ident(
+  int_ref t__066_ "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string
+)
+ident(
+  int_ref t__067_ "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string
+)
+ident(
+  int_ref t__065_ "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  def t__068_ "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 664
+)
+type(
+  string
+)
+ident(
+  def t__067_ "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 664
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  def t__066_ "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string
+)
+ident(
+  def t__065_ "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string * t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  int
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> int -> Sexp.t -> string * t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.tuple_of_size_n_expected "sexp_conv_error.ml" 12 207 211 "sexp_conv_error.ml" 12 207 235
+)
+type(
+  string * t
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string * t
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 32 624 658 "src/ast.ml" 32 624 668
+)
+"src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  string * t
+)
+ident(
+  int_ref _b__060_ "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  string * t
+)
+ident(
+  int_ref _a__059_ "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  string * t
+)
+ident(
+  int_ref _b__058_ "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  string * t
+)
+ident(
+  int_ref _a__057_ "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  t
+)
+ident(
+  int_ref _b__056_ "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  t
+)
+ident(
+  int_ref _a__055_ "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  t * t
+)
+type(
+  t
+)
+type(
+  string * t
+)
+ident(
+  def _b__060_ "src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+)
+type(
+  string * t
+)
+ident(
+  def _b__058_ "src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+)
+type(
+  t
+)
+ident(
+  def _b__056_ "src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+)
+type(
+  t
+)
+type(
+  string * t
+)
+ident(
+  def _a__059_ "src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+)
+type(
+  string * t
+)
+ident(
+  def _a__057_ "src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+)
+type(
+  t
+)
+ident(
+  def _a__055_ "src/ast.ml" 32 624 638 "src/ast.ml" 32 624 639
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  string * t
+)
+ident(
+  int_ref v2 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+type(
+  string * t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  t
+)
+type(
+  string * t
+)
+ident(
+  def v2 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  string * t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t
+)
+type(
+  string * t
+)
+ident(
+  int_ref v2 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+type(
+  string * t
+)
+ident(
+  int_ref v1 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  t
+)
+type(
+  string * t
+)
+ident(
+  def v2 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  string * t
+)
+ident(
+  def v1 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 32 624 628 "src/ast.ml" 32 624 669
+)
+"src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+type(
+  t -> int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  t * t
+)
+type(
+  t
+)
+ident(
+  int_ref b__020_ "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  int_ref a__019_ "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  t
+)
+ident(
+  int_ref b__020_ "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  int_ref a__019_ "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref Ppx_compare_lib.phys_equal "src/ppx_compare_lib.mli" 4 113 113 "src/ppx_compare_lib.mli" 4 113 146
+)
+type(
+  t
+)
+ident(
+  def b__020_ "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def a__019_ "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> t -> int
+)
+ident(
+  def compare "src/ast.ml" 23 405 407 "src/ast.ml" 75 2551 2554
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  def sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 75 2551 2554
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  int_ref t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  Sexp.t -> t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.unexpected_stag "sexp_conv_error.ml" 36 962 966 "sexp_conv_error.ml" 36 962 981
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.empty_list_invalid_sum "sexp_conv_error.ml" 33 849 853 "sexp_conv_error.ml" 33 849 875
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.nested_list_invalid_sum "sexp_conv_error.ml" 30 736 740 "sexp_conv_error.ml" 30 736 763
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_takes_args "sexp_conv_error.ml" 27 628 632 "sexp_conv_error.ml" 27 628 647
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  string * t
+)
+ident(
+  int_ref v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string * t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  string * t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string * t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string * t
+)
+ident(
+  def v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string * t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  direction
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  Type.t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Type.t
+)
+ident(
+  def v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  direction
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  direction
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  direction
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  direction
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  int_ref v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Type.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Type.t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Type.t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  t
+)
+ident(
+  int_ref v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  binop
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  binop
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  binop
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v2 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v1 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  int
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  int
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  int
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  int_ref _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string -> string -> Sexp.t -> t
+)
+ident(
+  int_ref Ppx_sexp_conv_lib.Conv_error.stag_incorrect_n_args "sexp_conv_error.ml" 21 465 469 "sexp_conv_error.ml" 21 465 490
+)
+type(
+  t
+)
+type(
+  string
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  int_ref v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def v0 "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t list
+)
+ident(
+  int_ref sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Sexp.t
+)
+ident(
+  def _sexp "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  Sexp.t list
+)
+type(
+  Sexp.t list
+)
+ident(
+  def sexp_args "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t
+)
+type(
+  string
+)
+ident(
+  def _tag "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def _tp_loc "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  Sexp.t -> t
+)
+ident(
+  def t_of_sexp "src/ast.ml" 23 405 407 "src/ast.ml" 75 2551 2554
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+type(
+  t -> Sexp.t
+)
+ident(
+  def sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 75 2551 2554
+)
+type(
+  t -> unit
+)
+type(
+  unit
+)
+type(
+  t
+)
+type(
+  t -> unit
+)
+"src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+type(
+  string -> t -> t -> t
+)
+ident(
+  def substitute "src/ast.ml" 41 1000 1002 "src/ast.ml" 75 2551 2554
+)
+"src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+type(
+  string
+)
+ident(
+  def x "src/ast.ml" 41 1000 1034 "src/ast.ml" 56 1830 1906
+)
+"src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+type(
+  t
+)
+ident(
+  def e' "src/ast.ml" 41 1000 1043 "src/ast.ml" 56 1830 1906
+)
+"src/ast.ml" 41 1000 1044 "src/ast.ml" 41 1000 1045
+type(
+  t
+)
+ident(
+  def e "src/ast.ml" 41 1000 1051 "src/ast.ml" 56 1830 1906
+)
+"src/ast.ml" 42 1057 1067 "src/ast.ml" 42 1057 1068
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 41 1000 1044 "src/ast.ml" 41 1000 1045
+)
+"src/ast.ml" 43 1074 1084 "src/ast.ml" 43 1074 1085
+type(
+  int
+)
+ident(
+  def n "src/ast.ml" 43 1074 1089 "src/ast.ml" 43 1074 1094
+)
+"src/ast.ml" 43 1074 1080 "src/ast.ml" 43 1074 1085
+type(
+  t
+)
+"src/ast.ml" 43 1074 1093 "src/ast.ml" 43 1074 1094
+type(
+  int
+)
+ident(
+  int_ref n "src/ast.ml" 43 1074 1084 "src/ast.ml" 43 1074 1085
+)
+"src/ast.ml" 43 1074 1089 "src/ast.ml" 43 1074 1094
+type(
+  t
+)
+"src/ast.ml" 44 1095 1105 "src/ast.ml" 44 1095 1107
+type(
+  string
+)
+ident(
+  def x' "src/ast.ml" 44 1095 1111 "src/ast.ml" 44 1095 1135
+)
+"src/ast.ml" 44 1095 1101 "src/ast.ml" 44 1095 1107
+type(
+  t
+)
+"src/ast.ml" 44 1095 1114 "src/ast.ml" 44 1095 1116
+type(
+  string
+)
+ident(
+  int_ref x' "src/ast.ml" 44 1095 1105 "src/ast.ml" 44 1095 1107
+)
+"src/ast.ml" 44 1095 1117 "src/ast.ml" 44 1095 1118
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 44 1095 1119 "src/ast.ml" 44 1095 1120
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 44 1095 1114 "src/ast.ml" 44 1095 1120
+type(
+  bool
+)
+"src/ast.ml" 44 1095 1126 "src/ast.ml" 44 1095 1128
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 44 1095 1134 "src/ast.ml" 44 1095 1135
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 41 1000 1044 "src/ast.ml" 41 1000 1045
+)
+"src/ast.ml" 44 1095 1111 "src/ast.ml" 44 1095 1135
+type(
+  t
+)
+"src/ast.ml" 45 1136 1149 "src/ast.ml" 45 1136 1150
+type(
+  binop
+)
+ident(
+  def b "src/ast.ml" 45 1136 1163 "src/ast.ml" 45 1136 1211
+)
+"src/ast.ml" 45 1136 1152 "src/ast.ml" 45 1136 1154
+type(
+  t
+)
+ident(
+  def t1 "src/ast.ml" 45 1136 1163 "src/ast.ml" 45 1136 1211
+)
+"src/ast.ml" 45 1136 1156 "src/ast.ml" 45 1136 1158
+type(
+  t
+)
+ident(
+  def t2 "src/ast.ml" 45 1136 1163 "src/ast.ml" 45 1136 1211
+)
+"src/ast.ml" 45 1136 1142 "src/ast.ml" 45 1136 1159
+type(
+  t
+)
+"src/ast.ml" 45 1136 1169 "src/ast.ml" 45 1136 1170
+type(
+  binop
+)
+ident(
+  int_ref b "src/ast.ml" 45 1136 1149 "src/ast.ml" 45 1136 1150
+)
+"src/ast.ml" 45 1136 1172 "src/ast.ml" 45 1136 1182
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 45 1136 1183 "src/ast.ml" 45 1136 1184
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 45 1136 1185 "src/ast.ml" 45 1136 1187
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 45 1136 1188 "src/ast.ml" 45 1136 1190
+type(
+  t
+)
+ident(
+  int_ref t1 "src/ast.ml" 45 1136 1152 "src/ast.ml" 45 1136 1154
+)
+"src/ast.ml" 45 1136 1172 "src/ast.ml" 45 1136 1190
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 45 1136 1192 "src/ast.ml" 45 1136 1202
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 45 1136 1203 "src/ast.ml" 45 1136 1204
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 45 1136 1205 "src/ast.ml" 45 1136 1207
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 45 1136 1208 "src/ast.ml" 45 1136 1210
+type(
+  t
+)
+ident(
+  int_ref t2 "src/ast.ml" 45 1136 1156 "src/ast.ml" 45 1136 1158
+)
+"src/ast.ml" 45 1136 1192 "src/ast.ml" 45 1136 1210
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 45 1136 1163 "src/ast.ml" 45 1136 1211
+type(
+  t
+)
+"src/ast.ml" 46 1212 1223 "src/ast.ml" 46 1212 1225
+type(
+  string
+)
+ident(
+  def x' "src/ast.ml" 47 1239 1250 "src/ast.ml" 47 1239 1323
+)
+"src/ast.ml" 46 1212 1227 "src/ast.ml" 46 1212 1230
+type(
+  Type.t
+)
+ident(
+  def tau "src/ast.ml" 47 1239 1250 "src/ast.ml" 47 1239 1323
+)
+"src/ast.ml" 46 1212 1232 "src/ast.ml" 46 1212 1236
+type(
+  t
+)
+ident(
+  def body "src/ast.ml" 47 1239 1250 "src/ast.ml" 47 1239 1323
+)
+"src/ast.ml" 46 1212 1218 "src/ast.ml" 46 1212 1237
+type(
+  t
+)
+"src/ast.ml" 47 1239 1253 "src/ast.ml" 47 1239 1255
+type(
+  string
+)
+ident(
+  int_ref x' "src/ast.ml" 46 1212 1223 "src/ast.ml" 46 1212 1225
+)
+"src/ast.ml" 47 1239 1256 "src/ast.ml" 47 1239 1257
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 47 1239 1258 "src/ast.ml" 47 1239 1259
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 47 1239 1253 "src/ast.ml" 47 1239 1259
+type(
+  bool
+)
+"src/ast.ml" 47 1239 1269 "src/ast.ml" 47 1239 1271
+type(
+  string
+)
+ident(
+  int_ref x' "src/ast.ml" 46 1212 1223 "src/ast.ml" 46 1212 1225
+)
+"src/ast.ml" 47 1239 1273 "src/ast.ml" 47 1239 1276
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/ast.ml" 46 1212 1227 "src/ast.ml" 46 1212 1230
+)
+"src/ast.ml" 47 1239 1278 "src/ast.ml" 47 1239 1282
+type(
+  t
+)
+ident(
+  int_ref body "src/ast.ml" 46 1212 1232 "src/ast.ml" 46 1212 1236
+)
+"src/ast.ml" 47 1239 1265 "src/ast.ml" 47 1239 1283
+type(
+  t
+)
+"src/ast.ml" 47 1239 1293 "src/ast.ml" 47 1239 1295
+type(
+  string
+)
+ident(
+  int_ref x' "src/ast.ml" 46 1212 1223 "src/ast.ml" 46 1212 1225
+)
+"src/ast.ml" 47 1239 1297 "src/ast.ml" 47 1239 1300
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/ast.ml" 46 1212 1227 "src/ast.ml" 46 1212 1230
+)
+"src/ast.ml" 47 1239 1302 "src/ast.ml" 47 1239 1312
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 47 1239 1313 "src/ast.ml" 47 1239 1314
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 47 1239 1315 "src/ast.ml" 47 1239 1317
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 47 1239 1318 "src/ast.ml" 47 1239 1322
+type(
+  t
+)
+ident(
+  int_ref body "src/ast.ml" 46 1212 1232 "src/ast.ml" 46 1212 1236
+)
+"src/ast.ml" 47 1239 1302 "src/ast.ml" 47 1239 1322
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 47 1239 1289 "src/ast.ml" 47 1239 1323
+type(
+  t
+)
+"src/ast.ml" 47 1239 1250 "src/ast.ml" 47 1239 1323
+type(
+  t
+)
+"src/ast.ml" 48 1324 1335 "src/ast.ml" 48 1324 1337
+type(
+  t
+)
+ident(
+  def t1 "src/ast.ml" 48 1324 1346 "src/ast.ml" 48 1324 1390
+)
+"src/ast.ml" 48 1324 1339 "src/ast.ml" 48 1324 1341
+type(
+  t
+)
+ident(
+  def t2 "src/ast.ml" 48 1324 1346 "src/ast.ml" 48 1324 1390
+)
+"src/ast.ml" 48 1324 1330 "src/ast.ml" 48 1324 1342
+type(
+  t
+)
+"src/ast.ml" 48 1324 1351 "src/ast.ml" 48 1324 1361
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 48 1324 1362 "src/ast.ml" 48 1324 1363
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 48 1324 1364 "src/ast.ml" 48 1324 1366
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 48 1324 1367 "src/ast.ml" 48 1324 1369
+type(
+  t
+)
+ident(
+  int_ref t1 "src/ast.ml" 48 1324 1335 "src/ast.ml" 48 1324 1337
+)
+"src/ast.ml" 48 1324 1351 "src/ast.ml" 48 1324 1369
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 48 1324 1371 "src/ast.ml" 48 1324 1381
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 48 1324 1382 "src/ast.ml" 48 1324 1383
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 48 1324 1384 "src/ast.ml" 48 1324 1386
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 48 1324 1387 "src/ast.ml" 48 1324 1389
+type(
+  t
+)
+ident(
+  int_ref t2 "src/ast.ml" 48 1324 1339 "src/ast.ml" 48 1324 1341
+)
+"src/ast.ml" 48 1324 1371 "src/ast.ml" 48 1324 1389
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 48 1324 1346 "src/ast.ml" 48 1324 1390
+type(
+  t
+)
+"src/ast.ml" 49 1391 1403 "src/ast.ml" 49 1391 1405
+type(
+  t
+)
+ident(
+  def e1 "src/ast.ml" 49 1391 1414 "src/ast.ml" 49 1391 1459
+)
+"src/ast.ml" 49 1391 1407 "src/ast.ml" 49 1391 1409
+type(
+  t
+)
+ident(
+  def e2 "src/ast.ml" 49 1391 1414 "src/ast.ml" 49 1391 1459
+)
+"src/ast.ml" 49 1391 1397 "src/ast.ml" 49 1391 1410
+type(
+  t
+)
+"src/ast.ml" 49 1391 1420 "src/ast.ml" 49 1391 1430
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 49 1391 1431 "src/ast.ml" 49 1391 1432
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 49 1391 1433 "src/ast.ml" 49 1391 1435
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 49 1391 1436 "src/ast.ml" 49 1391 1438
+type(
+  t
+)
+ident(
+  int_ref e1 "src/ast.ml" 49 1391 1403 "src/ast.ml" 49 1391 1405
+)
+"src/ast.ml" 49 1391 1420 "src/ast.ml" 49 1391 1438
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 49 1391 1440 "src/ast.ml" 49 1391 1450
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 49 1391 1451 "src/ast.ml" 49 1391 1452
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 49 1391 1453 "src/ast.ml" 49 1391 1455
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 49 1391 1456 "src/ast.ml" 49 1391 1458
+type(
+  t
+)
+ident(
+  int_ref e2 "src/ast.ml" 49 1391 1407 "src/ast.ml" 49 1391 1409
+)
+"src/ast.ml" 49 1391 1440 "src/ast.ml" 49 1391 1458
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 49 1391 1414 "src/ast.ml" 49 1391 1459
+type(
+  t
+)
+"src/ast.ml" 50 1460 1475 "src/ast.ml" 50 1460 1476
+type(
+  t
+)
+ident(
+  def e "src/ast.ml" 50 1460 1484 "src/ast.ml" 50 1460 1514
+)
+"src/ast.ml" 50 1460 1478 "src/ast.ml" 50 1460 1479
+type(
+  direction
+)
+ident(
+  def d "src/ast.ml" 50 1460 1484 "src/ast.ml" 50 1460 1514
+)
+"src/ast.ml" 50 1460 1466 "src/ast.ml" 50 1460 1480
+type(
+  t
+)
+"src/ast.ml" 50 1460 1493 "src/ast.ml" 50 1460 1503
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 50 1460 1504 "src/ast.ml" 50 1460 1505
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 50 1460 1506 "src/ast.ml" 50 1460 1508
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 50 1460 1509 "src/ast.ml" 50 1460 1510
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 50 1460 1475 "src/ast.ml" 50 1460 1476
+)
+"src/ast.ml" 50 1460 1493 "src/ast.ml" 50 1460 1510
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 50 1460 1512 "src/ast.ml" 50 1460 1513
+type(
+  direction
+)
+ident(
+  int_ref d "src/ast.ml" 50 1460 1478 "src/ast.ml" 50 1460 1479
+)
+"src/ast.ml" 50 1460 1484 "src/ast.ml" 50 1460 1514
+type(
+  t
+)
+"src/ast.ml" 51 1515 1529 "src/ast.ml" 51 1515 1530
+type(
+  t
+)
+ident(
+  def e "src/ast.ml" 51 1515 1543 "src/ast.ml" 51 1515 1577
+)
+"src/ast.ml" 51 1515 1532 "src/ast.ml" 51 1515 1533
+type(
+  direction
+)
+ident(
+  def d "src/ast.ml" 51 1515 1543 "src/ast.ml" 51 1515 1577
+)
+"src/ast.ml" 51 1515 1535 "src/ast.ml" 51 1515 1538
+type(
+  Type.t
+)
+ident(
+  def tau "src/ast.ml" 51 1515 1543 "src/ast.ml" 51 1515 1577
+)
+"src/ast.ml" 51 1515 1521 "src/ast.ml" 51 1515 1539
+type(
+  t
+)
+"src/ast.ml" 51 1515 1551 "src/ast.ml" 51 1515 1561
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 51 1515 1562 "src/ast.ml" 51 1515 1563
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 51 1515 1564 "src/ast.ml" 51 1515 1566
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 51 1515 1567 "src/ast.ml" 51 1515 1568
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 51 1515 1529 "src/ast.ml" 51 1515 1530
+)
+"src/ast.ml" 51 1515 1551 "src/ast.ml" 51 1515 1568
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 51 1515 1570 "src/ast.ml" 51 1515 1571
+type(
+  direction
+)
+ident(
+  int_ref d "src/ast.ml" 51 1515 1532 "src/ast.ml" 51 1515 1533
+)
+"src/ast.ml" 51 1515 1573 "src/ast.ml" 51 1515 1576
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/ast.ml" 51 1515 1535 "src/ast.ml" 51 1515 1538
+)
+"src/ast.ml" 51 1515 1543 "src/ast.ml" 51 1515 1577
+type(
+  t
+)
+"src/ast.ml" 52 1578 1590 "src/ast.ml" 52 1578 1591
+type(
+  t
+)
+ident(
+  def e "src/ast.ml" 53 1613 1624 "src/ast.ml" 56 1830 1906
+)
+"src/ast.ml" 52 1578 1594 "src/ast.ml" 52 1578 1596
+type(
+  string
+)
+ident(
+  def x1 "src/ast.ml" 53 1613 1624 "src/ast.ml" 56 1830 1906
+)
+"src/ast.ml" 52 1578 1598 "src/ast.ml" 52 1578 1600
+type(
+  t
+)
+ident(
+  def e1 "src/ast.ml" 53 1613 1624 "src/ast.ml" 56 1830 1906
+)
+"src/ast.ml" 52 1578 1593 "src/ast.ml" 52 1578 1601
+type(
+  string * t
+)
+"src/ast.ml" 52 1578 1604 "src/ast.ml" 52 1578 1606
+type(
+  string
+)
+ident(
+  def x2 "src/ast.ml" 53 1613 1624 "src/ast.ml" 56 1830 1906
+)
+"src/ast.ml" 52 1578 1608 "src/ast.ml" 52 1578 1610
+type(
+  t
+)
+ident(
+  def e2 "src/ast.ml" 53 1613 1624 "src/ast.ml" 56 1830 1906
+)
+"src/ast.ml" 52 1578 1603 "src/ast.ml" 52 1578 1611
+type(
+  string * t
+)
+"src/ast.ml" 52 1578 1584 "src/ast.ml" 52 1578 1612
+type(
+  t
+)
+"src/ast.ml" 53 1613 1627 "src/ast.ml" 53 1613 1629
+type(
+  string
+)
+ident(
+  int_ref x1 "src/ast.ml" 52 1578 1594 "src/ast.ml" 52 1578 1596
+)
+"src/ast.ml" 53 1613 1630 "src/ast.ml" 53 1613 1631
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 53 1613 1632 "src/ast.ml" 53 1613 1633
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 53 1613 1627 "src/ast.ml" 53 1613 1633
+type(
+  bool
+)
+"src/ast.ml" 53 1613 1634 "src/ast.ml" 53 1613 1636
+type(
+  bool -> bool -> bool
+)
+ident(
+  int_ref Core.( && ) "src/core_pervasives.mli" 117 4625 4625 "src/core_pervasives.mli" 117 4625 4676
+)
+"src/ast.ml" 53 1613 1637 "src/ast.ml" 53 1613 1639
+type(
+  string
+)
+ident(
+  int_ref x2 "src/ast.ml" 52 1578 1604 "src/ast.ml" 52 1578 1606
+)
+"src/ast.ml" 53 1613 1640 "src/ast.ml" 53 1613 1641
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 53 1613 1642 "src/ast.ml" 53 1613 1643
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 53 1613 1637 "src/ast.ml" 53 1613 1643
+type(
+  bool
+)
+"src/ast.ml" 53 1613 1627 "src/ast.ml" 53 1613 1643
+type(
+  bool
+)
+"src/ast.ml" 53 1613 1655 "src/ast.ml" 53 1613 1656
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 52 1578 1590 "src/ast.ml" 52 1578 1591
+)
+"src/ast.ml" 53 1613 1659 "src/ast.ml" 53 1613 1661
+type(
+  string
+)
+ident(
+  int_ref x1 "src/ast.ml" 52 1578 1594 "src/ast.ml" 52 1578 1596
+)
+"src/ast.ml" 53 1613 1663 "src/ast.ml" 53 1613 1665
+type(
+  t
+)
+ident(
+  int_ref e1 "src/ast.ml" 52 1578 1598 "src/ast.ml" 52 1578 1600
+)
+"src/ast.ml" 53 1613 1658 "src/ast.ml" 53 1613 1666
+type(
+  string * t
+)
+"src/ast.ml" 53 1613 1669 "src/ast.ml" 53 1613 1671
+type(
+  string
+)
+ident(
+  int_ref x2 "src/ast.ml" 52 1578 1604 "src/ast.ml" 52 1578 1606
+)
+"src/ast.ml" 53 1613 1673 "src/ast.ml" 53 1613 1675
+type(
+  t
+)
+ident(
+  int_ref e2 "src/ast.ml" 52 1578 1608 "src/ast.ml" 52 1578 1610
+)
+"src/ast.ml" 53 1613 1668 "src/ast.ml" 53 1613 1676
+type(
+  string * t
+)
+"src/ast.ml" 53 1613 1649 "src/ast.ml" 53 1613 1677
+type(
+  t
+)
+"src/ast.ml" 54 1678 1697 "src/ast.ml" 54 1678 1699
+type(
+  string
+)
+ident(
+  int_ref x1 "src/ast.ml" 52 1578 1594 "src/ast.ml" 52 1578 1596
+)
+"src/ast.ml" 54 1678 1700 "src/ast.ml" 54 1678 1701
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 54 1678 1702 "src/ast.ml" 54 1678 1703
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 54 1678 1697 "src/ast.ml" 54 1678 1703
+type(
+  bool
+)
+"src/ast.ml" 54 1678 1715 "src/ast.ml" 54 1678 1716
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 52 1578 1590 "src/ast.ml" 52 1578 1591
+)
+"src/ast.ml" 54 1678 1719 "src/ast.ml" 54 1678 1721
+type(
+  string
+)
+ident(
+  int_ref x1 "src/ast.ml" 52 1578 1594 "src/ast.ml" 52 1578 1596
+)
+"src/ast.ml" 54 1678 1723 "src/ast.ml" 54 1678 1725
+type(
+  t
+)
+ident(
+  int_ref e1 "src/ast.ml" 52 1578 1598 "src/ast.ml" 52 1578 1600
+)
+"src/ast.ml" 54 1678 1718 "src/ast.ml" 54 1678 1726
+type(
+  string * t
+)
+"src/ast.ml" 54 1678 1729 "src/ast.ml" 54 1678 1731
+type(
+  string
+)
+ident(
+  int_ref x2 "src/ast.ml" 52 1578 1604 "src/ast.ml" 52 1578 1606
+)
+"src/ast.ml" 54 1678 1733 "src/ast.ml" 54 1678 1743
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 54 1678 1744 "src/ast.ml" 54 1678 1745
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 54 1678 1746 "src/ast.ml" 54 1678 1748
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 54 1678 1749 "src/ast.ml" 54 1678 1751
+type(
+  t
+)
+ident(
+  int_ref e2 "src/ast.ml" 52 1578 1608 "src/ast.ml" 52 1578 1610
+)
+"src/ast.ml" 54 1678 1733 "src/ast.ml" 54 1678 1751
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 54 1678 1728 "src/ast.ml" 54 1678 1752
+type(
+  string * t
+)
+"src/ast.ml" 54 1678 1709 "src/ast.ml" 54 1678 1753
+type(
+  t
+)
+"src/ast.ml" 55 1754 1773 "src/ast.ml" 55 1754 1775
+type(
+  string
+)
+ident(
+  int_ref x2 "src/ast.ml" 52 1578 1604 "src/ast.ml" 52 1578 1606
+)
+"src/ast.ml" 55 1754 1776 "src/ast.ml" 55 1754 1777
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 55 1754 1778 "src/ast.ml" 55 1754 1779
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 55 1754 1773 "src/ast.ml" 55 1754 1779
+type(
+  bool
+)
+"src/ast.ml" 55 1754 1791 "src/ast.ml" 55 1754 1792
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 52 1578 1590 "src/ast.ml" 52 1578 1591
+)
+"src/ast.ml" 55 1754 1795 "src/ast.ml" 55 1754 1797
+type(
+  string
+)
+ident(
+  int_ref x1 "src/ast.ml" 52 1578 1594 "src/ast.ml" 52 1578 1596
+)
+"src/ast.ml" 55 1754 1799 "src/ast.ml" 55 1754 1809
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 55 1754 1810 "src/ast.ml" 55 1754 1811
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 55 1754 1812 "src/ast.ml" 55 1754 1814
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 55 1754 1815 "src/ast.ml" 55 1754 1817
+type(
+  t
+)
+ident(
+  int_ref e1 "src/ast.ml" 52 1578 1598 "src/ast.ml" 52 1578 1600
+)
+"src/ast.ml" 55 1754 1799 "src/ast.ml" 55 1754 1817
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 55 1754 1794 "src/ast.ml" 55 1754 1818
+type(
+  string * t
+)
+"src/ast.ml" 55 1754 1821 "src/ast.ml" 55 1754 1823
+type(
+  string
+)
+ident(
+  int_ref x2 "src/ast.ml" 52 1578 1604 "src/ast.ml" 52 1578 1606
+)
+"src/ast.ml" 55 1754 1825 "src/ast.ml" 55 1754 1827
+type(
+  t
+)
+ident(
+  int_ref e2 "src/ast.ml" 52 1578 1608 "src/ast.ml" 52 1578 1610
+)
+"src/ast.ml" 55 1754 1820 "src/ast.ml" 55 1754 1828
+type(
+  string * t
+)
+"src/ast.ml" 55 1754 1785 "src/ast.ml" 55 1754 1829
+type(
+  t
+)
+"src/ast.ml" 56 1830 1852 "src/ast.ml" 56 1830 1853
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 52 1578 1590 "src/ast.ml" 52 1578 1591
+)
+"src/ast.ml" 56 1830 1856 "src/ast.ml" 56 1830 1858
+type(
+  string
+)
+ident(
+  int_ref x1 "src/ast.ml" 52 1578 1594 "src/ast.ml" 52 1578 1596
+)
+"src/ast.ml" 56 1830 1860 "src/ast.ml" 56 1830 1870
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 56 1830 1871 "src/ast.ml" 56 1830 1872
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 56 1830 1873 "src/ast.ml" 56 1830 1875
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 56 1830 1876 "src/ast.ml" 56 1830 1878
+type(
+  t
+)
+ident(
+  int_ref e1 "src/ast.ml" 52 1578 1598 "src/ast.ml" 52 1578 1600
+)
+"src/ast.ml" 56 1830 1860 "src/ast.ml" 56 1830 1878
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 56 1830 1855 "src/ast.ml" 56 1830 1879
+type(
+  string * t
+)
+"src/ast.ml" 56 1830 1882 "src/ast.ml" 56 1830 1884
+type(
+  string
+)
+ident(
+  int_ref x2 "src/ast.ml" 52 1578 1604 "src/ast.ml" 52 1578 1606
+)
+"src/ast.ml" 56 1830 1886 "src/ast.ml" 56 1830 1896
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 56 1830 1897 "src/ast.ml" 56 1830 1898
+type(
+  string
+)
+ident(
+  int_ref x "src/ast.ml" 41 1000 1022 "src/ast.ml" 41 1000 1023
+)
+"src/ast.ml" 56 1830 1899 "src/ast.ml" 56 1830 1901
+type(
+  t
+)
+ident(
+  int_ref e' "src/ast.ml" 41 1000 1035 "src/ast.ml" 41 1000 1037
+)
+"src/ast.ml" 56 1830 1902 "src/ast.ml" 56 1830 1904
+type(
+  t
+)
+ident(
+  int_ref e2 "src/ast.ml" 52 1578 1608 "src/ast.ml" 52 1578 1610
+)
+"src/ast.ml" 56 1830 1886 "src/ast.ml" 56 1830 1904
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 56 1830 1881 "src/ast.ml" 56 1830 1905
+type(
+  string * t
+)
+"src/ast.ml" 56 1830 1846 "src/ast.ml" 56 1830 1906
+type(
+  t
+)
+"src/ast.ml" 55 1754 1770 "src/ast.ml" 56 1830 1906
+type(
+  t
+)
+"src/ast.ml" 54 1678 1694 "src/ast.ml" 56 1830 1906
+type(
+  t
+)
+"src/ast.ml" 53 1613 1624 "src/ast.ml" 56 1830 1906
+type(
+  t
+)
+"src/ast.ml" 42 1057 1061 "src/ast.ml" 56 1830 1906
+type(
+  t
+)
+type(
+  t
+)
+"src/ast.ml" 58 1908 1914 "src/ast.ml" 58 1908 1926
+type(
+  unit -> unit
+)
+ident(
+  def inline_tests "src/ast.ml" 71 2469 2471 "src/ast.ml" 75 2551 2554
+)
+"src/ast.ml" 58 1908 1927 "src/ast.ml" 58 1908 1929
+type(
+  unit
+)
+"src/ast.ml" 59 1932 1940 "src/ast.ml" 59 1932 1942
+type(
+  t
+)
+ident(
+  def t1 "src/ast.ml" 60 1990 1994 "src/ast.ml" 68 2336 2395
+)
+"src/ast.ml" 59 1932 1953 "src/ast.ml" 59 1932 1956
+type(
+  string
+)
+"src/ast.ml" 59 1932 1958 "src/ast.ml" 59 1932 1966
+type(
+  Type.t
+)
+"src/ast.ml" 59 1932 1972 "src/ast.ml" 59 1932 1975
+type(
+  string
+)
+"src/ast.ml" 59 1932 1968 "src/ast.ml" 59 1932 1975
+type(
+  t
+)
+"src/ast.ml" 59 1932 1949 "src/ast.ml" 59 1932 1976
+type(
+  t
+)
+"src/ast.ml" 59 1932 1982 "src/ast.ml" 59 1932 1985
+type(
+  string
+)
+"src/ast.ml" 59 1932 1978 "src/ast.ml" 59 1932 1985
+type(
+  t
+)
+"src/ast.ml" 59 1932 1945 "src/ast.ml" 59 1932 1986
+type(
+  t
+)
+"src/ast.ml" 60 1990 2002 "src/ast.ml" 60 1990 2012
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 60 1990 2013 "src/ast.ml" 60 1990 2016
+type(
+  string
+)
+"src/ast.ml" 60 1990 2022 "src/ast.ml" 60 1990 2023
+type(
+  int
+)
+"src/ast.ml" 60 1990 2017 "src/ast.ml" 60 1990 2024
+type(
+  t
+)
+"src/ast.ml" 60 1990 2025 "src/ast.ml" 60 1990 2027
+type(
+  t
+)
+ident(
+  int_ref t1 "src/ast.ml" 59 1932 1940 "src/ast.ml" 59 1932 1942
+)
+"src/ast.ml" 60 1990 2002 "src/ast.ml" 60 1990 2027
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 60 1990 2028 "src/ast.ml" 60 1990 2029
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 60 1990 2030 "src/ast.ml" 60 1990 2032
+type(
+  t
+)
+ident(
+  int_ref t1 "src/ast.ml" 59 1932 1940 "src/ast.ml" 59 1932 1942
+)
+"src/ast.ml" 60 1990 2001 "src/ast.ml" 60 1990 2033
+type(
+  bool
+)
+"src/ast.ml" 60 1990 1994 "src/ast.ml" 60 1990 2033
+type(
+  unit
+)
+"src/ast.ml" 61 2035 2047 "src/ast.ml" 61 2035 2057
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 61 2035 2058 "src/ast.ml" 61 2035 2061
+type(
+  string
+)
+"src/ast.ml" 61 2035 2067 "src/ast.ml" 61 2035 2068
+type(
+  int
+)
+"src/ast.ml" 61 2035 2062 "src/ast.ml" 61 2035 2069
+type(
+  t
+)
+"src/ast.ml" 61 2035 2070 "src/ast.ml" 61 2035 2072
+type(
+  t
+)
+ident(
+  int_ref t1 "src/ast.ml" 59 1932 1940 "src/ast.ml" 59 1932 1942
+)
+"src/ast.ml" 61 2035 2047 "src/ast.ml" 61 2035 2072
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 61 2035 2073 "src/ast.ml" 61 2035 2074
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 62 2075 2095 "src/ast.ml" 62 2075 2098
+type(
+  string
+)
+"src/ast.ml" 62 2075 2100 "src/ast.ml" 62 2075 2108
+type(
+  Type.t
+)
+"src/ast.ml" 62 2075 2114 "src/ast.ml" 62 2075 2117
+type(
+  string
+)
+"src/ast.ml" 62 2075 2110 "src/ast.ml" 62 2075 2117
+type(
+  t
+)
+"src/ast.ml" 62 2075 2091 "src/ast.ml" 62 2075 2118
+type(
+  t
+)
+"src/ast.ml" 62 2075 2124 "src/ast.ml" 62 2075 2125
+type(
+  int
+)
+"src/ast.ml" 62 2075 2120 "src/ast.ml" 62 2075 2125
+type(
+  t
+)
+"src/ast.ml" 62 2075 2087 "src/ast.ml" 62 2075 2126
+type(
+  t
+)
+"src/ast.ml" 61 2035 2046 "src/ast.ml" 62 2075 2127
+type(
+  bool
+)
+"src/ast.ml" 61 2035 2039 "src/ast.ml" 62 2075 2127
+type(
+  unit
+)
+"src/ast.ml" 64 2130 2138 "src/ast.ml" 64 2130 2140
+type(
+  t
+)
+ident(
+  def t2 "src/ast.ml" 65 2195 2199 "src/ast.ml" 68 2336 2395
+)
+"src/ast.ml" 64 2130 2149 "src/ast.ml" 64 2130 2152
+type(
+  binop
+)
+"src/ast.ml" 64 2130 2158 "src/ast.ml" 64 2130 2161
+type(
+  string
+)
+"src/ast.ml" 64 2130 2154 "src/ast.ml" 64 2130 2161
+type(
+  t
+)
+"src/ast.ml" 64 2130 2167 "src/ast.ml" 64 2130 2170
+type(
+  string
+)
+"src/ast.ml" 64 2130 2172 "src/ast.ml" 64 2130 2180
+type(
+  Type.t
+)
+"src/ast.ml" 64 2130 2186 "src/ast.ml" 64 2130 2189
+type(
+  string
+)
+"src/ast.ml" 64 2130 2182 "src/ast.ml" 64 2130 2189
+type(
+  t
+)
+"src/ast.ml" 64 2130 2163 "src/ast.ml" 64 2130 2190
+type(
+  t
+)
+"src/ast.ml" 64 2130 2143 "src/ast.ml" 64 2130 2191
+type(
+  t
+)
+"src/ast.ml" 65 2195 2207 "src/ast.ml" 65 2195 2217
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 65 2195 2218 "src/ast.ml" 65 2195 2221
+type(
+  string
+)
+"src/ast.ml" 65 2195 2227 "src/ast.ml" 65 2195 2228
+type(
+  int
+)
+"src/ast.ml" 65 2195 2222 "src/ast.ml" 65 2195 2229
+type(
+  t
+)
+"src/ast.ml" 65 2195 2230 "src/ast.ml" 65 2195 2232
+type(
+  t
+)
+ident(
+  int_ref t2 "src/ast.ml" 64 2130 2138 "src/ast.ml" 64 2130 2140
+)
+"src/ast.ml" 65 2195 2207 "src/ast.ml" 65 2195 2232
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 65 2195 2233 "src/ast.ml" 65 2195 2234
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 66 2235 2253 "src/ast.ml" 66 2235 2256
+type(
+  binop
+)
+"src/ast.ml" 66 2235 2262 "src/ast.ml" 66 2235 2263
+type(
+  int
+)
+"src/ast.ml" 66 2235 2258 "src/ast.ml" 66 2235 2263
+type(
+  t
+)
+"src/ast.ml" 66 2235 2269 "src/ast.ml" 66 2235 2272
+type(
+  string
+)
+"src/ast.ml" 66 2235 2274 "src/ast.ml" 66 2235 2282
+type(
+  Type.t
+)
+"src/ast.ml" 66 2235 2288 "src/ast.ml" 66 2235 2291
+type(
+  string
+)
+"src/ast.ml" 66 2235 2284 "src/ast.ml" 66 2235 2291
+type(
+  t
+)
+"src/ast.ml" 66 2235 2265 "src/ast.ml" 66 2235 2292
+type(
+  t
+)
+"src/ast.ml" 66 2235 2247 "src/ast.ml" 66 2235 2293
+type(
+  t
+)
+"src/ast.ml" 65 2195 2206 "src/ast.ml" 66 2235 2294
+type(
+  bool
+)
+"src/ast.ml" 65 2195 2199 "src/ast.ml" 66 2235 2294
+type(
+  unit
+)
+"src/ast.ml" 67 2296 2308 "src/ast.ml" 67 2296 2318
+type(
+  string -> t -> t -> t
+)
+ident(
+  int_ref substitute "src/ast.ml" 41 1000 1010 "src/ast.ml" 41 1000 1020
+)
+"src/ast.ml" 67 2296 2319 "src/ast.ml" 67 2296 2322
+type(
+  string
+)
+"src/ast.ml" 67 2296 2328 "src/ast.ml" 67 2296 2329
+type(
+  int
+)
+"src/ast.ml" 67 2296 2323 "src/ast.ml" 67 2296 2330
+type(
+  t
+)
+"src/ast.ml" 67 2296 2331 "src/ast.ml" 67 2296 2333
+type(
+  t
+)
+ident(
+  int_ref t2 "src/ast.ml" 64 2130 2138 "src/ast.ml" 64 2130 2140
+)
+"src/ast.ml" 67 2296 2308 "src/ast.ml" 67 2296 2333
+call(
+  stack
+)
+type(
+  t
+)
+"src/ast.ml" 67 2296 2334 "src/ast.ml" 67 2296 2335
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref Core.( = ) "src/core_pervasives.mli" 37 1168 1168 "src/core_pervasives.mli" 37 1168 1212
+)
+"src/ast.ml" 68 2336 2354 "src/ast.ml" 68 2336 2357
+type(
+  binop
+)
+"src/ast.ml" 68 2336 2363 "src/ast.ml" 68 2336 2366
+type(
+  string
+)
+"src/ast.ml" 68 2336 2359 "src/ast.ml" 68 2336 2366
+type(
+  t
+)
+"src/ast.ml" 68 2336 2372 "src/ast.ml" 68 2336 2375
+type(
+  string
+)
+"src/ast.ml" 68 2336 2377 "src/ast.ml" 68 2336 2385
+type(
+  Type.t
+)
+"src/ast.ml" 68 2336 2391 "src/ast.ml" 68 2336 2392
+type(
+  int
+)
+"src/ast.ml" 68 2336 2387 "src/ast.ml" 68 2336 2392
+type(
+  t
+)
+"src/ast.ml" 68 2336 2368 "src/ast.ml" 68 2336 2393
+type(
+  t
+)
+"src/ast.ml" 68 2336 2348 "src/ast.ml" 68 2336 2394
+type(
+  t
+)
+"src/ast.ml" 67 2296 2307 "src/ast.ml" 68 2336 2395
+type(
+  bool
+)
+"src/ast.ml" 67 2296 2300 "src/ast.ml" 68 2336 2395
+type(
+  unit
+)
+"src/ast.ml" 65 2195 2199 "src/ast.ml" 68 2336 2395
+type(
+  unit
+)
+"src/ast.ml" 64 2130 2134 "src/ast.ml" 68 2336 2395
+type(
+  unit
+)
+"src/ast.ml" 61 2035 2039 "src/ast.ml" 68 2336 2395
+type(
+  unit
+)
+"src/ast.ml" 60 1990 1994 "src/ast.ml" 68 2336 2395
+type(
+  unit
+)
+"src/ast.ml" 59 1932 1936 "src/ast.ml" 68 2336 2395
+type(
+  unit
+)
+"src/ast.ml" 71 2469 2475 "src/ast.ml" 71 2469 2477
+type(
+  unit
+)
+"src/ast.ml" 71 2469 2480 "src/ast.ml" 71 2469 2492
+type(
+  unit -> unit
+)
+ident(
+  int_ref inline_tests "src/ast.ml" 58 1908 1914 "src/ast.ml" 58 1908 1926
+)
+"src/ast.ml" 71 2469 2493 "src/ast.ml" 71 2469 2495
+type(
+  unit
+)
+"src/ast.ml" 71 2469 2480 "src/ast.ml" 71 2469 2495
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ast.ml" 74 2498 2504 "src/ast.ml" 74 2498 2513
+type(
+  t -> string
+)
+ident(
+  def to_string "src/ast.ml" 74 2498 2550 "src/ast.ml" 75 2551 2554
+)
+"src/ast.ml" 74 2498 2514 "src/ast.ml" 74 2498 2515
+type(
+  t
+)
+ident(
+  def e "src/ast.ml" 74 2498 2518 "src/ast.ml" 74 2498 2550
+)
+"src/ast.ml" 74 2498 2518 "src/ast.ml" 74 2498 2536
+type(
+  ?indent:int -> Sexp.t -> string
+)
+ident(
+  int_ref Core.Sexp.to_string_hum "src/sexp_intf.ml" 528 20573 20575 "src/sexp_intf.ml" 528 20573 20623
+)
+"src/ast.ml" 74 2498 2538 "src/ast.ml" 74 2498 2547
+type(
+  t -> Sexp.t
+)
+ident(
+  int_ref sexp_of_t "src/ast.ml" 23 405 407 "src/ast.ml" 33 670 707
+)
+"src/ast.ml" 74 2498 2548 "src/ast.ml" 74 2498 2549
+type(
+  t
+)
+ident(
+  int_ref e "src/ast.ml" 74 2498 2514 "src/ast.ml" 74 2498 2515
+)
+"src/ast.ml" 74 2498 2537 "src/ast.ml" 74 2498 2550
+call(
+  stack
+)
+type(
+  Sexp.t
+)
+"src/ast.ml" 74 2498 2518 "src/ast.ml" 74 2498 2550
+call(
+  tail
+)
+type(
+  string
+)
