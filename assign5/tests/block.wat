@@ -1,16 +1,15 @@
 (module
+  (memory 1)
   (func (result i32) (local i32)
-    (i32.const 0)
-    (set_local 0)
-    (block
-      (get_local 0)
-      (i32.const 1)
-      (i32.add)
-      (set_local 0)
-      (br 0)
-      (get_local 0)
-      (i32.const 1)
-      (i32.add)
-      (set_local 0))
-    (get_local 0))
+      (block
+      (i32.const 4)
+      (i32.const 8)
+      (i32.store)
+      (br 0))
+      (i32.const 4)
+      (i32.load))
 )
+
+
+    
+   
