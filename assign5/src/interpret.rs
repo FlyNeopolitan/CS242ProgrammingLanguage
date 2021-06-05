@@ -65,7 +65,12 @@ fn step(module: &mut WModule, config: WConfig) -> WConfig {
 
     // YOUR CODE GOES HERE
     
-    Binop(binop) => { unimplemented!(); }
+    Binop(binop) => { match binop {
+      Add => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push(n1 + n2);}}; None },
+      Sub => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push(n1 - n2);}} None },
+      Mul => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push(n1 * n2);}} None },
+      DivS => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push(if n2 == 0 {0} else {n1 / n2});}} None }
+    } }
     
     Relop(relop) => { unimplemented!(); }
     
