@@ -65,39 +65,90 @@ fn step(module: &mut WModule, config: WConfig) -> WConfig {
 
     // YOUR CODE GOES HERE
     
-    Binop(binop) => { unimplemented!(); }
+    Binop(binop) => { match binop {
+      Add => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push(n1 + n2);}}; None },
+      Sub => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push(n1 - n2);}} None },
+      Mul => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push(n1 * n2);}} None },
+      DivS => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push(if n2 == 0 {0} else {n1 / n2});}} None }
+    } }
     
-    Relop(relop) => { unimplemented!(); }
+    Relop(relop) => { match relop {
+      Eq => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push((n1 == n2) as i32);}} None },
+      Lt => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push((n1 < n2) as i32);}} None },
+      Gt => { if let Some(n2) = stack.pop() {if let Some(n1) = stack.pop() {stack.push((n1 > n2) as i32);}} None }
+    } }
     
-    GetLocal(i) => { unimplemented!(); }
+    GetLocal(i) => { if let Some(n) = locals.get(i as usize) {stack.push(*n);} None }
     
-    SetLocal(i) => { unimplemented!(); }
+    SetLocal(i) => { if let Some(n) = stack.pop() {locals[i as usize] = n;} None}
     
-    BrIf(label) => { unimplemented!(); }
+    BrIf(label) => {  match stack.pop() {
+      Some(n) => if n == 0 {None} else {Some(Br(label))},
+      None => None
+    }
+    }
     
-    Return => { unimplemented!(); }
+    Return => { match stack.pop() {
+      Some(n) => Some(Returning(n)),
+      None => None
+    }
+    }
     
-    Loop(instrs) => { unimplemented!(); }
+    Loop(instrs) => { Some(Label{continuation : Box::new(Some(Loop(instrs.clone()))), 
+      stack : vec![], instrs: instrs.clone()})
+    }
     
-    Block(instrs) => { unimplemented!(); }
+    Block(instrs) => { Some(Label{continuation : Box::new(None), stack : vec![],
+      instrs: instrs.clone()})
+    }
     
-    Label{continuation, stack: mut new_stack, instrs: new_instrs} => { unimplemented!(); }
+    Label{continuation, stack: mut new_stack, instrs: new_instrs} => {
+      match new_instrs.clone().pop() {
+        None => None,
+        Some(ins) => match ins {
+          Trapping(n) => Some(Trapping(n)),
+          Returning(n) => Some(Returning(n)),
+          Br(0) => {Some(continuation.unwrap())},
+          Br(i) => Some(Br(i - 1)),
+          _ => {let WConfig {mut locals , mut stack, mut instrs} 
+                = step(module, WConfig {locals: locals.clone(), stack: new_stack, instrs: new_instrs});
+               Some(Label{continuation: continuation, stack: stack, instrs: instrs})}
+        }
+      }
+
+    }
     
     Call(i) => { unimplemented!(); }
     
     Frame(mut new_config) => { unimplemented!(); }
     
-    Load => { unimplemented!(); }
+    Load => { match stack.pop() {
+      Some(i) => { match module.memory.load(i) {
+                  Some(n) => {stack.push(n); None}
+                  None => {Some(Trapping("Unreachable".to_string()))}
+      } }
+      None => None
+    } }
     
-    Store => { unimplemented!(); }
+    Store => { match stack.pop() {
+      Some(n) => { match stack.pop() {
+        Some(i) => { match module.memory.store(i, n) {
+          true => None,
+          false => Some(Trapping("Unreachable".to_string()))
+         }
+        }
+        None => None
+      } }
+      None => None
+    } }
     
-    Size => { unimplemented!(); }
+    Size => { stack.push(module.memory.size()); None }
     
-    Grow => { unimplemented!(); }
+    Grow => { module.memory.grow(); None }
     
-    Returning(n) => { unimplemented!(); }
+    Returning(n) => { Some(Trapping("Unreachable".to_string())) }
     
-    Br(n) => { unimplemented!(); }
+    Br(n) => { Some(Trapping("Unreachable".to_string())) }
     
     Trapping(n) => unreachable!(),
 
