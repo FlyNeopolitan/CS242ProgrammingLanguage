@@ -26,23 +26,34 @@ impl VecMem {
 
 impl WMemory for VecMem {
   fn load(&self, address: i32) -> Option<i32> {
-    // YOUR CODE GOES HERE
-    unimplemented!()
+    let page = &self.0;
+    match page.get(address as usize) {
+      Some(n) => Some(n.clone()),
+      None => None
+    }
   }
 
   fn store(&mut self, address: i32, value: i32) -> bool {
-    // YOUR CODE GOES HERE
-    unimplemented!()
+    let page = &mut self.0;
+    match page.get_mut(address as usize) {
+      None => false,
+      Some(elem) => {
+        *elem = value;
+        true
+      }
+    }
   }
 
   fn grow(&mut self) {
     // YOUR CODE GOES HERE
-    unimplemented!()
+    let page = &mut self.0;
+    page.append(&mut alloc_page(1));
   }
 
   fn size(&self) -> i32 {
     // YOUR CODE GOES HERE
-    unimplemented!()
+    let page = &self.0;
+    page.len() as i32
   }
 }
 
@@ -71,21 +82,42 @@ impl UnsafeMem {
 impl WMemory for UnsafeMem {
   fn load(&self, address: i32) -> Option<i32> {
     // YOUR CODE GOES HERE
-    unimplemented!()
+    unsafe {
+      if address < 0 || address > self.size {
+        None
+      } else {
+        let p = self.data.offset(address as isize);
+        Some(*p)
+      }
+    }
   }
 
   fn store(&mut self, address: i32, value: i32) -> bool {
     // YOUR CODE GOES HERE
-    unimplemented!()
+    unsafe {
+      if address < 0 || address > self.size {
+        false
+      } else {
+        let p = self.data.offset(address as isize);
+        *p = value;
+        true
+      }
+    }
   }
 
   fn grow(&mut self) {
     // YOUR CODE GOES HERE
-    unimplemented!()
+    unsafe {
+      let typesize = mem::size_of::<i32>();
+      let currSize = self.size as usize;
+      let newSize = currSize + PAGE_SIZE as usize;
+      self.data = realloc(self.data as *mut u8, Layout::from_size_align(currSize * typesize, typesize).unwrap(), newSize) as *mut i32;
+      self.size = newSize as i32;
+    }
   }
 
   fn size(&self) -> i32 {
     // YOUR CODE GOES HERE
-    unimplemented!()
+    self.size
   }
 }
