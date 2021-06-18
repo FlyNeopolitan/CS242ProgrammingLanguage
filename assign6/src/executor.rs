@@ -63,11 +63,19 @@ impl Executor for SingleThreadExecutor {
   where
     F: Future<Item = ()> + 'static,
   {
-    unimplemented!()
+    if let Poll::NotReady = f.poll() {
+      self.futures.push(Box::new(f));
+    }
   }
 
   fn wait(&mut self) {
-    unimplemented!()
+    for fut in self.futures.iter_mut() {
+      loop {
+        if let Poll::Ready(_) = fut.poll() {
+          break;
+        }
+      }
+    }
   }
 }
 
@@ -76,9 +84,35 @@ pub struct MultiThreadExecutor {
   threads: Vec<thread::JoinHandle<()>>,
 }
 
+
 impl MultiThreadExecutor {
   pub fn new(num_threads: i32) -> MultiThreadExecutor {
-    unimplemented!()
+    let mut threads = vec![];
+    let (sender, receiver) = mpsc::channel();
+    for i in 0..num_threads {
+      let currSender = sender.clone();
+      let t = thread::spawn(move || { 
+        let mut currThread = SingleThreadExecutor::new();
+        loop {
+          let message = receiver.recv().unwrap();
+          match message {
+            None => {
+              currThread.wait();
+              break;
+            }
+            Some(fut) => {
+              currThread.spawn(fut)
+            }
+          }
+        } 
+      });
+      threads.push(t);
+    }
+
+    MultiThreadExecutor{
+      sender: sender,
+      threads: threads
+    }
   }
 }
 
@@ -87,10 +121,16 @@ impl Executor for MultiThreadExecutor {
   where
     F: Future<Item = ()> + 'static,
   {
-    unimplemented!()
+    self.sender.send(Some(Box::new(f)));
   }
 
   fn wait(&mut self) {
-    unimplemented!()
+    self.sender.send(None);
+    for handle in &self.threads {
+      unsafe {
+        let h = std::ptr::read(handle);
+        h.join().unwrap();
+      }
+    }
   }
 }

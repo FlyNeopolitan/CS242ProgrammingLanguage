@@ -17,15 +17,17 @@ impl Event {
   }
 
   /* This function checks if two events are one the same date */
-  pub fn has_conflict() {
+  pub fn has_conflict(&self, event: &Event) -> bool {
     // Your code!
+    self.month == event.month && self.day == event.day && self.year == event.year
   }
 
   /* This function shifts the date of an event by one day.
    * You can assume that the date is not on the last day
    * of a month */
-  pub fn update_event() {
+  pub fn update_event(&mut self) {
     // Your code!
+    self.day = self.day + 1
   }
 }
 
@@ -47,14 +49,59 @@ impl Trie {
   pub fn new(strs: &Vec<&str>) -> Trie {
     Trie::build(strs, '\0')
   }
+  
+  /*
+  fn insert(mut trie: &Trie, strs: &str) {
+   let mut current = trie;
+   for i in strs.chars() {
+     let flag = false;
+     for next in current.children.iter_mut() {
+       if next.chr == i {
+          flag = true;
+          current = next;
+          break;
+       }
+     }
+     if flag == false {
+       current.children.push()
+       
+     }
+
+   }
+
+  } */
 
   fn build(strs: &Vec<&str>, chr: char) -> Trie {
-    unimplemented!()
+    let fc = strs.iter().filter_map(|s| s.chars().next())
+      .collect::<HashSet<_>>();
+    Trie {
+      chr,
+      has: strs.iter().filter(|s| s.len() == 0).count() > 0,
+      children:
+        fc.into_iter().map(|c| {
+          Trie::build(
+            &strs.iter().filter(|s| s.chars().next().unwrap() == c).
+              map(|s|
+                  if s.len() > 1 { &s[1..] }
+                  else { "" }).collect::<Vec<_>>(), c)
+        }).collect::<Vec<_>>()
+    }
   }
 
   pub fn contains(&self, s: &str) -> bool {
-    unimplemented!()
+    if s.len() == 0 {
+      return self.has
+    } else {
+      let chr = s.chars().next().unwrap();
+      for i in self.children.iter() {
+        if (i.chr == chr) {
+          return i.contains(&s[1..])
+        }
+      }
+      return false
+    }
   }
+
 }
 
 #[cfg(test)]

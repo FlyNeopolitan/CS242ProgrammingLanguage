@@ -123,8 +123,20 @@ where
   type Item = (F::Item, G::Item);
 
   fn poll(&mut self) -> Poll<Self::Item> {
-    unimplemented!()
+    match self {
+      Join::BothRunning(F, G) => {
+        match F.poll() {
+          Poll::NotReady => Poll::NotReady,
+          Poll::Ready(s) => match G.poll() {
+            Poll::NotReady => Poll::NotReady,
+            Poll::Ready(t) => Poll::Ready((s, t))
+          }
+        }
+      },
+      _ => Poll::NotReady
+    }
   }
+
 }
 
 /*
@@ -156,6 +168,20 @@ where
   type Item = Fut2::Item;
 
   fn poll(&mut self) -> Poll<Self::Item> {
-    unimplemented!()
+    match self {
+      AndThen::First(fut, fun) => {
+        match fut.poll() {
+          Poll::NotReady => Poll::NotReady,
+          Poll::Ready(s) => {
+            unsafe {
+              let f = std::ptr::read(fun);
+              f(s).poll()
+            }
+          }
+        }
+      },
+      AndThen::Second(fut2) => fut2.poll(),
+      _ => Poll::NotReady
+    }
   }
 }
