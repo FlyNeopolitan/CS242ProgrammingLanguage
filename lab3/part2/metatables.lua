@@ -1,6 +1,25 @@
-local function guard(t, keys)
-  -- TODO
+-- helper function: determine if keys : list contains the key : val
+local function contains(keys, key)
+  for _, val in pairs(keys) do 
+    if val == key then
+      return true
+    end
+  end
+  return false
 end
+
+
+local function guard(t, keys)
+  setmetatable(t, {__newindex = function (t, k, v)
+    if contains(keys, k) then
+      rawset(t, k, v)
+    else
+      error("insert an missing key")
+    end
+  end})
+end
+
+
 
 local t = {d = 0}
 guard(t, {"a", "b"})
@@ -11,7 +30,10 @@ assert(pcall(function() t.d = 1 end))
 
 
 local function multilink(t, parents)
-  -- TODO
+  setmetatable(t, {__index = parents[1]})
+  for i = 1, #parents - 1 do 
+    setmetatable(parents[i], {__index= parents[i + 1]})
+  end
 end
 
 local t = {a = 0}

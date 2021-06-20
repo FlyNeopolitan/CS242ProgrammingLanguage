@@ -21,12 +21,46 @@ local function parse_parens(s)
 end
 
 local function serialize(t)
-  -- TODO
+  local ty = type(t)
+  local s 
+  if ty == "number" then 
+    s = tostring(t)
+  elseif ty == "string" then 
+    s = t 
+  elseif ty == "table" then 
+    s = ""
+    for k, v in pairs(t) do 
+      s = s .. string.format( "((%s)(%s))", serialize(k), serialize(v))
+    end
+  else 
+    return nil
+  end 
+  return string.format( "(%s)(%s)", ty, s)
 end
 
+
 local function deserialize(s)
-  -- TODO
+  s = parse_parens(s) 
+  local ty = s[1]
+  local val = s[2]
+  if ty == "number" then 
+    return tonumber(val)
+  elseif ty == "string" then
+    return val
+  elseif ty == "table" then
+    local res = {}
+    for _, pair in pairs(parse_parens(val)) do 
+        local seperate = parse_parens(pair) 
+        local k = deserialize(seperate[1])
+        local v = deserialize(seperate[2])
+        res[k] = v
+    end
+    return res
+  else 
+    return nil 
+  end
 end
+
 
 local values = {
   0, "Hello", "foo bar", {"a", " ", "b"}, {5, 10, 20}, {x = 1, y = "yes"}, {a = {b = {c = 1}}}

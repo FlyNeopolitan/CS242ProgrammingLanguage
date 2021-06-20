@@ -38,12 +38,14 @@ end, {y = types.Number})
 local GrandchildClass = class.class({ChildClass}, function(_) end, {})
 
 describe("Basic Class Tests", function()
+  --[[ 
   it("Object Tests", function()
     local p = BasicClass:new()
     p:set(1)
     assert.are.equals(1, p.x)
     assert.are.equals(1, p:get())
   end)
+  ]]
 
   it("Constructor Tests", function()
     local p = ParentClass:new(1)
@@ -51,7 +53,7 @@ describe("Basic Class Tests", function()
     p:incr()
     assert.are.equals(3, p.x)
   end)
-
+  
   it("Inheritance Tests", function()
     local p1 = ChildClass:new(1, 2)
     assert.are.equals(2, p1.x)
@@ -64,6 +66,36 @@ describe("Basic Class Tests", function()
     assert.are.equals(4, p2:add())
   end)
 
+  it("Basic Type Tests", function ()
+    local A = class.class({Object}, function(Class)  function Class:constructor()
+    end end, {x = types.Number})
+    local B = class.class({A},  function(Class) function Class:constructor()
+    end end, {y = types.String})
+    local inst = B:new()
+    
+    inst.x = 1       -- datatype for x inherited from A
+    inst.y = "hello" -- datatype for y direct from B
+    inst.z = false   -- invalid, no datatype
+    assert.are.equals(inst.z, false)
+  end)
+
+  it("?", function ()
+    t = {}
+    x = {}
+    x.a = 1
+    
+    setmetatable(t, {__newindex = function (t, k, v)
+      print("hello")
+    end})
+    setmetatable(t, {__index = x})
+   
+    t.b = 1
+    print(t.b)
+    print(t.a)
+    
+  end)
+
+  
   it("Type Tests", function()
     local p1 = ChildClass:new(1, 2)
     assert.is_true(class.Object:is(p1))
@@ -81,4 +113,5 @@ describe("Basic Class Tests", function()
     assert.is_true(Class:is(p2))
     assert.is_true(class.Object:is(p2))
   end)
+
 end)
